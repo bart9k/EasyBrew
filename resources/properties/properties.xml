@@ -1,0 +1,6 @@
+<properties>
+    <property id="pourMinDuration" type="number">5</property>
+    <property id="pourMaxDuration" type="number">10</property>
+    <property id="brewMinDuration" type="number">20</property>
+    <property id="brewMaxDuration" type="number">30</property>
+</properties>

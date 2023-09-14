@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<manifest filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/manifest.xml"/>
+<pcToLineNum>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewApp.mc" id="1" lineNum="5" parent="globals/EasyBrewApp" pc="268435460" symbol="&lt;init&gt;"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewApp.mc" id="2" lineNum="13" parent="globals/EasyBrewApp" pc="268435479" symbol="onStart"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewApp.mc" id="3" lineNum="21" parent="globals/EasyBrewApp" pc="268435482" symbol="getInitialView"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewApp.mc" id="3" lineNum="22" parent="globals/EasyBrewApp" pc="268435484" symbol="getInitialView"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewApp.mc" id="3" lineNum="23" parent="globals/EasyBrewApp" pc="268435518" symbol="getInitialView"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewApp.mc" id="4" lineNum="8" parent="globals/EasyBrewApp" pc="268435575" symbol="initialize"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewApp.mc" id="4" lineNum="9" parent="globals/EasyBrewApp" pc="268435577" symbol="initialize"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewApp.mc" id="5" lineNum="27" parent="globals/EasyBrewApp" pc="268435596" symbol="getView"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewApp.mc" id="5" lineNum="28" parent="globals/EasyBrewApp" pc="268435598" symbol="getView"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewApp.mc" id="6" lineNum="17" parent="globals/EasyBrewApp" pc="268435607" symbol="onStop"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewApp.mc" id="7" lineNum="33" parent="globals" pc="268435610" symbol="getApp"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewApp.mc" id="7" lineNum="34" parent="globals" pc="268435620" symbol="getApp"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" id="9" lineNum="7" parent="globals/Rez" pc="268435636" symbol="&lt;init&gt;"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" id="10" lineNum="6" parent="globals/EasyBrewDelegate" pc="268435660" symbol="&lt;init&gt;"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" id="10" lineNum="20" parent="globals/EasyBrewDelegate" pc="268435678" symbol="&lt;init&gt;"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" id="11" lineNum="26" parent="globals/EasyBrewDelegate" pc="268435698" symbol="onSelect"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" id="11" lineNum="28" parent="globals/EasyBrewDelegate" pc="268435700" symbol="onSelect"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" id="11" lineNum="29" parent="globals/EasyBrewDelegate" pc="268435717" symbol="onSelect"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" id="11" lineNum="31" parent="globals/EasyBrewDelegate" pc="268435736" symbol="onSelect"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" id="11" lineNum="32" parent="globals/EasyBrewDelegate" pc="268435753" symbol="onSelect"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" id="11" lineNum="38" parent="globals/EasyBrewDelegate" pc="268435772" symbol="onSelect"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" id="11" lineNum="39" parent="globals/EasyBrewDelegate" pc="268435835" symbol="onSelect"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" id="11" lineNum="40" parent="globals/EasyBrewDelegate" pc="268435898" symbol="onSelect"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" id="11" lineNum="41" parent="globals/EasyBrewDelegate" pc="268435912" symbol="onSelect"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" id="11" lineNum="44" parent="globals/EasyBrewDelegate" pc="268435925" symbol="onSelect"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" id="11" lineNum="47" parent="globals/EasyBrewDelegate" pc="268435943" symbol="onSelect"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" id="11" lineNum="48" parent="globals/EasyBrewDelegate" pc="268435960" symbol="onSelect"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" id="11" lineNum="49" parent="globals/EasyBrewDelegate" pc="268435979" symbol="onSelect"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" id="11" lineNum="51" parent="globals/EasyBrewDelegate" pc="268436021" symbol="onSelect"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" id="11" lineNum="52" parent="globals/EasyBrewDelegate" pc="268436029" symbol="onSelect"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" id="11" lineNum="54" parent="globals/EasyBrewDelegate" pc="268436049" symbol="onSelect"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" id="11" lineNum="59" parent="globals/EasyBrewDelegate" pc="268436069" symbol="onSelect"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" id="11" lineNum="64" parent="globals/EasyBrewDelegate" pc="268436089" symbol="onSelect"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" id="11" lineNum="53" parent="globals/EasyBrewDelegate" pc="268436112" symbol="onSelect"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" id="11" lineNum="55" parent="globals/EasyBrewDelegate" pc="268436115" symbol="onSelect"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" id="11" lineNum="56" parent="globals/EasyBrewDelegate" pc="268436144" symbol="onSelect"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" id="11" lineNum="57" parent="globals/EasyBrewDelegate" pc="268436173" symbol="onSelect"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" id="11" lineNum="58" parent="globals/EasyBrewDelegate" pc="268436189" symbol="onSelect"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" id="11" lineNum="60" parent="globals/EasyBrewDelegate" pc="268436192" symbol="onSelect"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" id="11" lineNum="61" parent="globals/EasyBrewDelegate" pc="268436221" symbol="onSelect"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" id="11" lineNum="62" parent="globals/EasyBrewDelegate" pc="268436250" symbol="onSelect"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" id="11" lineNum="63" parent="globals/EasyBrewDelegate" pc="268436266" symbol="onSelect"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" id="11" lineNum="65" parent="globals/EasyBrewDelegate" pc="268436269" symbol="onSelect"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" id="11" lineNum="67" parent="globals/EasyBrewDelegate" pc="268436273" symbol="onSelect"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" id="11" lineNum="69" parent="globals/EasyBrewDelegate" pc="268436285" symbol="onSelect"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" id="11" lineNum="71" parent="globals/EasyBrewDelegate" pc="268436311" symbol="onSelect"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" id="12" lineNum="76" parent="globals/EasyBrewDelegate" pc="268436340" symbol="startCountdown"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" id="12" lineNum="77" parent="globals/EasyBrewDelegate" pc="268436342" symbol="startCountdown"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" id="12" lineNum="78" parent="globals/EasyBrewDelegate" pc="268436368" symbol="startCountdown"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" id="12" lineNum="80" parent="globals/EasyBrewDelegate" pc="268436381" symbol="startCountdown"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" id="12" lineNum="81" parent="globals/EasyBrewDelegate" pc="268436415" symbol="startCountdown"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" id="12" lineNum="83" parent="globals/EasyBrewDelegate" pc="268436456" symbol="startCountdown"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" id="13" lineNum="86" parent="globals/EasyBrewDelegate" pc="268436483" symbol="updateCountdownValue"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" id="13" lineNum="87" parent="globals/EasyBrewDelegate" pc="268436487" symbol="updateCountdownValue"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" id="13" lineNum="89" parent="globals/EasyBrewDelegate" pc="268436487" symbol="updateCountdownValue"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" id="13" lineNum="90" parent="globals/EasyBrewDelegate" pc="268436504" symbol="updateCountdownValue"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" id="13" lineNum="91" parent="globals/EasyBrewDelegate" pc="268436543" symbol="updateCountdownValue"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" id="13" lineNum="93" parent="globals/EasyBrewDelegate" pc="268436561" symbol="updateCountdownValue"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" id="13" lineNum="95" parent="globals/EasyBrewDelegate" pc="268436600" symbol="updateCountdownValue"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" id="13" lineNum="97" parent="globals/EasyBrewDelegate" pc="268436634" symbol="updateCountdownValue"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" id="13" lineNum="100" parent="globals/EasyBrewDelegate" pc="268436638" symbol="updateCountdownValue"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" id="13" lineNum="101" parent="globals/EasyBrewDelegate" pc="268436657" symbol="updateCountdownValue"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" id="13" lineNum="103" parent="globals/EasyBrewDelegate" pc="268436676" symbol="updateCountdownValue"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" id="13" lineNum="104" parent="globals/EasyBrewDelegate" pc="268436719" symbol="updateCountdownValue"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" id="13" lineNum="106" parent="globals/EasyBrewDelegate" pc="268436729" symbol="updateCountdownValue"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" id="13" lineNum="108" parent="globals/EasyBrewDelegate" pc="268436736" symbol="updateCountdownValue"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" id="13" lineNum="109" parent="globals/EasyBrewDelegate" pc="268436799" symbol="updateCountdownValue"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" id="13" lineNum="112" parent="globals/EasyBrewDelegate" pc="268436862" symbol="updateCountdownValue"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" id="13" lineNum="113" parent="globals/EasyBrewDelegate" pc="268436890" symbol="updateCountdownValue"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" id="14" lineNum="22" parent="globals/EasyBrewDelegate" pc="268436917" symbol="initialize"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" id="14" lineNum="23" parent="globals/EasyBrewDelegate" pc="268436919" symbol="initialize"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/managers/DataManager.mc" id="15" lineNum="4" parent="globals/DataManager" pc="268436938" symbol="getPourMinDuration"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/managers/DataManager.mc" id="15" lineNum="5" parent="globals/DataManager" pc="268436940" symbol="getPourMinDuration"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/managers/DataManager.mc" id="16" lineNum="32" parent="globals/DataManager" pc="268436967" symbol="setBrewMaxDuration"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/managers/DataManager.mc" id="16" lineNum="33" parent="globals/DataManager" pc="268436969" symbol="setBrewMaxDuration"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/managers/DataManager.mc" id="17" lineNum="16" parent="globals/DataManager" pc="268436999" symbol="setPourMaxDuration"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/managers/DataManager.mc" id="17" lineNum="17" parent="globals/DataManager" pc="268437001" symbol="setPourMaxDuration"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/managers/DataManager.mc" id="18" lineNum="12" parent="globals/DataManager" pc="268437031" symbol="setPourMinDuration"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/managers/DataManager.mc" id="18" lineNum="13" parent="globals/DataManager" pc="268437033" symbol="setPourMinDuration"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/managers/DataManager.mc" id="19" lineNum="20" parent="globals/DataManager" pc="268437063" symbol="getBrewMinDuration"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/managers/DataManager.mc" id="19" lineNum="21" parent="globals/DataManager" pc="268437065" symbol="getBrewMinDuration"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/managers/DataManager.mc" id="20" lineNum="24" parent="globals/DataManager" pc="268437092" symbol="getBrewMaxDuration"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/managers/DataManager.mc" id="20" lineNum="25" parent="globals/DataManager" pc="268437094" symbol="getBrewMaxDuration"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/managers/DataManager.mc" id="22" lineNum="28" parent="globals/DataManager" pc="268437121" symbol="setBrewMinDuration"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/managers/DataManager.mc" id="22" lineNum="29" parent="globals/DataManager" pc="268437123" symbol="setBrewMinDuration"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/managers/DataManager.mc" id="23" lineNum="8" parent="globals/DataManager" pc="268437153" symbol="getPourMaxDuration"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/managers/DataManager.mc" id="23" lineNum="9" parent="globals/DataManager" pc="268437155" symbol="getPourMaxDuration"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="24" lineNum="4" parent="globals/EasyBrewView" pc="268437182" symbol="&lt;init&gt;"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="26" lineNum="17" parent="globals/EasyBrewView" pc="268437201" symbol="onLayout"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="26" lineNum="18" parent="globals/EasyBrewView" pc="268437203" symbol="onLayout"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="26" lineNum="20" parent="globals/EasyBrewView" pc="268437244" symbol="onLayout"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="26" lineNum="21" parent="globals/EasyBrewView" pc="268437268" symbol="onLayout"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="26" lineNum="22" parent="globals/EasyBrewView" pc="268437292" symbol="onLayout"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="26" lineNum="23" parent="globals/EasyBrewView" pc="268437316" symbol="onLayout"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="26" lineNum="24" parent="globals/EasyBrewView" pc="268437340" symbol="onLayout"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="26" lineNum="25" parent="globals/EasyBrewView" pc="268437364" symbol="onLayout"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="26" lineNum="27" parent="globals/EasyBrewView" pc="268437388" symbol="onLayout"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="27" lineNum="90" parent="globals/EasyBrewView" pc="268437406" symbol="setTimerValue"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="27" lineNum="91" parent="globals/EasyBrewView" pc="268437410" symbol="setTimerValue"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="27" lineNum="92" parent="globals/EasyBrewView" pc="268437420" symbol="setTimerValue"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="27" lineNum="93" parent="globals/EasyBrewView" pc="268437430" symbol="setTimerValue"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="27" lineNum="94" parent="globals/EasyBrewView" pc="268437474" symbol="setTimerValue"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="27" lineNum="96" parent="globals/EasyBrewView" pc="268437474" symbol="setTimerValue"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="27" lineNum="97" parent="globals/EasyBrewView" pc="268437485" symbol="setTimerValue"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="27" lineNum="99" parent="globals/EasyBrewView" pc="268437495" symbol="setTimerValue"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="27" lineNum="101" parent="globals/EasyBrewView" pc="268437517" symbol="setTimerValue"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="27" lineNum="102" parent="globals/EasyBrewView" pc="268437537" symbol="setTimerValue"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="27" lineNum="103" parent="globals/EasyBrewView" pc="268437557" symbol="setTimerValue"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="28" lineNum="57" parent="globals/EasyBrewView" pc="268437574" symbol="setStateTypeValue"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="28" lineNum="58" parent="globals/EasyBrewView" pc="268437578" symbol="setStateTypeValue"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="28" lineNum="59" parent="globals/EasyBrewView" pc="268437585" symbol="setStateTypeValue"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="28" lineNum="60" parent="globals/EasyBrewView" pc="268437592" symbol="setStateTypeValue"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="28" lineNum="62" parent="globals/EasyBrewView" pc="268437599" symbol="setStateTypeValue"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="28" lineNum="63" parent="globals/EasyBrewView" pc="268437601" symbol="setStateTypeValue"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="28" lineNum="67" parent="globals/EasyBrewView" pc="268437621" symbol="setStateTypeValue"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="28" lineNum="72" parent="globals/EasyBrewView" pc="268437641" symbol="setStateTypeValue"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="28" lineNum="77" parent="globals/EasyBrewView" pc="268437661" symbol="setStateTypeValue"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="28" lineNum="64" parent="globals/EasyBrewView" pc="268437684" symbol="setStateTypeValue"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="28" lineNum="65" parent="globals/EasyBrewView" pc="268437691" symbol="setStateTypeValue"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="28" lineNum="66" parent="globals/EasyBrewView" pc="268437698" symbol="setStateTypeValue"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="28" lineNum="68" parent="globals/EasyBrewView" pc="268437701" symbol="setStateTypeValue"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="28" lineNum="69" parent="globals/EasyBrewView" pc="268437708" symbol="setStateTypeValue"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="28" lineNum="70" parent="globals/EasyBrewView" pc="268437789" symbol="setStateTypeValue"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="28" lineNum="71" parent="globals/EasyBrewView" pc="268437796" symbol="setStateTypeValue"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="28" lineNum="73" parent="globals/EasyBrewView" pc="268437799" symbol="setStateTypeValue"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="28" lineNum="74" parent="globals/EasyBrewView" pc="268437806" symbol="setStateTypeValue"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="28" lineNum="75" parent="globals/EasyBrewView" pc="268437887" symbol="setStateTypeValue"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="28" lineNum="76" parent="globals/EasyBrewView" pc="268437894" symbol="setStateTypeValue"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="28" lineNum="78" parent="globals/EasyBrewView" pc="268437897" symbol="setStateTypeValue"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="28" lineNum="79" parent="globals/EasyBrewView" pc="268437904" symbol="setStateTypeValue"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="28" lineNum="80" parent="globals/EasyBrewView" pc="268437911" symbol="setStateTypeValue"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="28" lineNum="82" parent="globals/EasyBrewView" pc="268437915" symbol="setStateTypeValue"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="28" lineNum="83" parent="globals/EasyBrewView" pc="268437935" symbol="setStateTypeValue"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="28" lineNum="84" parent="globals/EasyBrewView" pc="268437955" symbol="setStateTypeValue"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="28" lineNum="86" parent="globals/EasyBrewView" pc="268437975" symbol="setStateTypeValue"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="29" lineNum="119" parent="globals/EasyBrewView" pc="268437992" symbol="showResults"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="29" lineNum="120" parent="globals/EasyBrewView" pc="268437996" symbol="showResults"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="29" lineNum="121" parent="globals/EasyBrewView" pc="268437996" symbol="showResults"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="29" lineNum="126" parent="globals/EasyBrewView" pc="268437996" symbol="showResults"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="29" lineNum="127" parent="globals/EasyBrewView" pc="268438019" symbol="showResults"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="29" lineNum="128" parent="globals/EasyBrewView" pc="268438042" symbol="showResults"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="29" lineNum="131" parent="globals/EasyBrewView" pc="268438065" symbol="showResults"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="29" lineNum="132" parent="globals/EasyBrewView" pc="268438088" symbol="showResults"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="29" lineNum="133" parent="globals/EasyBrewView" pc="268438111" symbol="showResults"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="29" lineNum="134" parent="globals/EasyBrewView" pc="268438130" symbol="showResults"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="29" lineNum="136" parent="globals/EasyBrewView" pc="268438156" symbol="showResults"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="29" lineNum="139" parent="globals/EasyBrewView" pc="268438179" symbol="showResults"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="29" lineNum="140" parent="globals/EasyBrewView" pc="268438250" symbol="showResults"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="29" lineNum="143" parent="globals/EasyBrewView" pc="268438291" symbol="showResults"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="29" lineNum="144" parent="globals/EasyBrewView" pc="268438314" symbol="showResults"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="29" lineNum="145" parent="globals/EasyBrewView" pc="268438337" symbol="showResults"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="29" lineNum="146" parent="globals/EasyBrewView" pc="268438356" symbol="showResults"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="29" lineNum="148" parent="globals/EasyBrewView" pc="268438382" symbol="showResults"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="29" lineNum="150" parent="globals/EasyBrewView" pc="268438405" symbol="showResults"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="29" lineNum="152" parent="globals/EasyBrewView" pc="268438446" symbol="showResults"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="30" lineNum="106" parent="globals/EasyBrewView" pc="268438463" symbol="setTotalTimer"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="30" lineNum="107" parent="globals/EasyBrewView" pc="268438467" symbol="setTotalTimer"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="30" lineNum="109" parent="globals/EasyBrewView" pc="268438477" symbol="setTotalTimer"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="30" lineNum="110" parent="globals/EasyBrewView" pc="268438487" symbol="setTotalTimer"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="30" lineNum="112" parent="globals/EasyBrewView" pc="268438531" symbol="setTotalTimer"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="30" lineNum="114" parent="globals/EasyBrewView" pc="268438553" symbol="setTotalTimer"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="30" lineNum="116" parent="globals/EasyBrewView" pc="268438573" symbol="setTotalTimer"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="31" lineNum="12" parent="globals/EasyBrewView" pc="268438590" symbol="initialize"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="31" lineNum="13" parent="globals/EasyBrewView" pc="268438592" symbol="initialize"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="33" lineNum="41" parent="globals/EasyBrewView" pc="268438611" symbol="onUpdate"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewView.mc" id="33" lineNum="43" parent="globals/EasyBrewView" pc="268438613" symbol="onUpdate"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewApp.mc" id="34" lineNum="38" parent="globals" pc="268438634" symbol="getView"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewApp.mc" id="34" lineNum="39" parent="globals" pc="268438644" symbol="getView"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" id="35" lineNum="19" parent="globals/Rez/Layouts" pc="268438669" symbol="MainLayout"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" id="35" lineNum="20" parent="globals/Rez/Layouts" pc="268438681" symbol="MainLayout"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" id="35" lineNum="22" parent="globals/Rez/Layouts" pc="268438793" symbol="MainLayout"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" id="35" lineNum="24" parent="globals/Rez/Layouts" pc="268438892" symbol="MainLayout"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" id="35" lineNum="26" parent="globals/Rez/Layouts" pc="268439027" symbol="MainLayout"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" id="35" lineNum="28" parent="globals/Rez/Layouts" pc="268439139" symbol="MainLayout"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" id="35" lineNum="30" parent="globals/Rez/Layouts" pc="268439238" symbol="MainLayout"/>
+<entry filename="/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" id="35" lineNum="32" parent="globals/Rez/Layouts" pc="268439337" symbol="MainLayout"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="8388639" module="true" symbol="Graphics"/>
+<entry field="true" id="18" symbol="&lt;globals/EasyBrewDelegate/&lt;&gt;_currentDuration&gt;"/>
+<entry id="8389346" symbol="text"/>
+<entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+<entry id="8" module="true" symbol="globals/Rez/Menus"/>
+<entry field="true" id="26" symbol="&lt;globals/EasyBrewDelegate/&lt;&gt;_totalDuration&gt;"/>
+<entry id="49" method="true" symbol="MainLayout"/>
+<entry field="true" id="21" symbol="&lt;globals/EasyBrewDelegate/&lt;&gt;_finalPourDurations&gt;"/>
+<entry field="true" id="15" symbol="&lt;globals/EasyBrewApp/&lt;&gt;_view&gt;"/>
+<entry field="true" id="41" symbol="&lt;globals/EasyBrewView/&lt;&gt;_totalTimerElement&gt;"/>
+<entry id="36" method="true" symbol="setPourMaxDuration"/>
+<entry field="true" id="38" symbol="&lt;globals/EasyBrewView/&lt;&gt;_currentTimerElement&gt;"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry field="true" id="50" symbol="AppName"/>
+<entry id="29" method="true" symbol="updateCountdownValue"/>
+<entry id="9" module="true" symbol="globals/Rez/Strings"/>
+<entry field="true" id="43" symbol="&lt;globals/EasyBrewView/&lt;&gt;_typeStateElement&gt;"/>
+<entry id="8388772" module="true" object="true" symbol="Fonts"/>
+<entry id="8388648" module="true" symbol="WatchUi"/>
+<entry field="true" id="25" symbol="&lt;globals/EasyBrewDelegate/&lt;&gt;_timer&gt;"/>
+<entry id="44" method="true" symbol="setStateTypeValue"/>
+<entry id="3" module="true" symbol="globals/Rez"/>
+<entry id="2" module="true" symbol="globals/DataManager/&lt;statics&gt;"/>
+<entry id="37" method="true" symbol="setPourMinDuration"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry field="true" id="8389065" symbol="locY"/>
+<entry field="true" id="8389064" symbol="locX"/>
+<entry id="11" object="true" symbol="EasyBrewApp"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="10" object="true" symbol="DataManager"/>
+<entry id="8389348" symbol="font"/>
+<entry id="32" method="true" symbol="getPourMaxDuration"/>
+<entry id="17" module="true" symbol="Menus"/>
+<entry id="8389275" method="true" symbol="getApp"/>
+<entry id="7" module="true" symbol="globals/Rez/Layouts"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry field="true" id="8389063" symbol="identifier"/>
+<entry id="8389349" symbol="justification"/>
+<entry field="true" id="24" symbol="&lt;globals/EasyBrewDelegate/&lt;&gt;_stateMinDuration&gt;"/>
+<entry id="6" module="true" symbol="globals/Rez/JsonData"/>
+<entry field="true" id="40" symbol="&lt;globals/EasyBrewView/&lt;&gt;_resultsPourElement&gt;"/>
+<entry id="47" method="true" symbol="showResults"/>
+<entry id="4" module="true" symbol="globals/Rez/Drawables"/>
+<entry id="28" method="true" symbol="startCountdown"/>
+<entry id="33" method="true" symbol="getPourMinDuration"/>
+<entry id="34" method="true" symbol="setBrewMaxDuration"/>
+<entry field="true" id="22" symbol="&lt;globals/EasyBrewDelegate/&lt;&gt;_inProgress&gt;"/>
+<entry id="46" method="true" symbol="setTotalTimer"/>
+<entry field="true" id="42" symbol="&lt;globals/EasyBrewView/&lt;&gt;_typeDurationElement&gt;"/>
+<entry id="8388644" module="true" symbol="System"/>
+<entry id="8389619" method="true" symbol="onSelect"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry id="8390088" module="true" object="true" symbol="JsonData"/>
+<entry field="true" id="48" symbol="LauncherIcon"/>
+<entry id="8388610" symbol="statics"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry field="true" id="39" symbol="&lt;globals/EasyBrewView/&lt;&gt;_resultsBrewElement&gt;"/>
+<entry id="35" method="true" symbol="setBrewMinDuration"/>
+<entry id="8389350" module="true" symbol="globals"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry id="13" object="true" symbol="EasyBrewView"/>
+<entry field="true" id="20" symbol="&lt;globals/EasyBrewDelegate/&lt;&gt;_finalBrewDurations&gt;"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry id="30" method="true" symbol="getBrewMaxDuration"/>
+<entry id="45" method="true" symbol="setTimerValue"/>
+<entry id="12" object="true" symbol="EasyBrewDelegate"/>
+<entry field="true" id="23" symbol="&lt;globals/EasyBrewDelegate/&lt;&gt;_stateMaxDuration&gt;"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry id="8388646" module="true" object="true" symbol="Timer"/>
+<entry id="16" module="true" symbol="Layouts"/>
+<entry field="true" id="27" symbol="&lt;globals/EasyBrewDelegate/&lt;&gt;_view&gt;"/>
+<entry id="5" module="true" symbol="globals/Rez/Fonts"/>
+<entry id="31" method="true" symbol="getBrewMinDuration"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry id="8391945" method="true" symbol="getView"/>
+<entry id="14" object="true" symbol="StateType"/>
+<entry id="8388635" module="true" symbol="Application"/>
+<entry field="true" id="19" symbol="&lt;globals/EasyBrewDelegate/&lt;&gt;_currentState&gt;"/>
+</symbolTable>
+<localVars>
+<entry endPc="268436915" name="color" stackId="1" startPc="268436487"/>
+<entry arg="true" endPc="268436998" name="duration" stackId="1" startPc="268436967"/>
+<entry arg="true" endPc="268437030" name="duration" stackId="1" startPc="268436999"/>
+<entry arg="true" endPc="268437062" name="duration" stackId="1" startPc="268437031"/>
+<entry arg="true" endPc="268437152" name="duration" stackId="1" startPc="268437121"/>
+<entry arg="true" endPc="268437405" name="dc" stackId="1" startPc="268437201"/>
+<entry arg="true" endPc="268437573" name="value" stackId="1" startPc="268437406"/>
+<entry arg="true" endPc="268437573" name="color" stackId="2" startPc="268437406"/>
+<entry endPc="268437572" name="minutes" stackId="3" startPc="268437410"/>
+<entry endPc="268437572" name="seconds" stackId="4" startPc="268437410"/>
+<entry endPc="268437572" name="secondsFormatted" stackId="5" startPc="268437410"/>
+<entry endPc="268437572" name="formattedValue" stackId="6" startPc="268437410"/>
+<entry arg="true" endPc="268437991" name="stateType" stackId="1" startPc="268437574"/>
+<entry endPc="268437990" name="label" stackId="2" startPc="268437578"/>
+<entry endPc="268437990" name="durationLabel" stackId="3" startPc="268437578"/>
+<entry endPc="268437990" name="color" stackId="4" startPc="268437578"/>
+<entry arg="true" endPc="268438462" name="pourValue" stackId="1" startPc="268437992"/>
+<entry arg="true" endPc="268438462" name="brewValue" stackId="2" startPc="268437992"/>
+<entry endPc="268438461" name="_stateMinDuration" stackId="3" startPc="268437996"/>
+<entry endPc="268438461" name="_stateMaxDuration" stackId="4" startPc="268437996"/>
+<entry arg="true" endPc="268438589" name="value" stackId="1" startPc="268438463"/>
+<entry endPc="268438588" name="minutes" stackId="2" startPc="268438467"/>
+<entry endPc="268438588" name="seconds" stackId="3" startPc="268438467"/>
+<entry endPc="268438588" name="secondsFormatted" stackId="4" startPc="268438467"/>
+<entry endPc="268438588" name="formattedValue" stackId="5" startPc="268438467"/>
+<entry arg="true" endPc="268438633" name="dc" stackId="1" startPc="268438611"/>
+<entry arg="true" endPc="268439403" name="dc" stackId="1" startPc="268438669"/>
+<entry endPc="268439403" name="rez_cmp_local_text_type_title" stackId="2" startPc="268438681"/>
+<entry endPc="268439403" name="rez_cmp_local_text_type_duration" stackId="3" startPc="268438681"/>
+<entry endPc="268439403" name="rez_cmp_local_text_current_timer" stackId="4" startPc="268438681"/>
+<entry endPc="268439403" name="rez_cmp_local_text_total_timer" stackId="5" startPc="268438681"/>
+<entry endPc="268439403" name="rez_cmp_local_text_resultsPour" stackId="6" startPc="268438681"/>
+<entry endPc="268439403" name="rez_cmp_local_text_resultsBrew" stackId="7" startPc="268438681"/>
+</localVars>
+<annotations>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+</annotations>
+<dataEntryOffsetMappings>
+<dataEntry label="globals" offset="95" parentId="" symbolId="globals" type="module"/>
+<dataEntry label="globals/EasyBrewApp" offset="198" parentId="globals" symbolId="EasyBrewApp" type="class"/>
+<dataEntry label="globals/StateType" offset="285" parentId="globals" symbolId="StateType" type="class"/>
+<dataEntry label="globals/Rez" offset="332" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/EasyBrewDelegate" offset="411" parentId="globals" symbolId="EasyBrewDelegate" type="class"/>
+<dataEntry label="globals/DataManager" offset="562" parentId="globals" symbolId="DataManager" type="class"/>
+<dataEntry label="globals/DataManager/&lt;statics&gt;" offset="609" parentId="DataManager" symbolId="&lt;statics&gt;" type="module"/>
+<dataEntry label="globals/EasyBrewView" offset="704" parentId="globals" symbolId="EasyBrewView" type="class"/>
+<dataEntry label="globals/Rez/Drawables" offset="863" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="902" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/Menus" offset="941" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry label="globals/Rez/Fonts" offset="972" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="1003" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry label="globals/Rez/JsonData" offset="1042" parentId="Rez" symbolId="JsonData" type="module"/>
+</dataEntryOffsetMappings>
+<functions>
+<functionEntry accessMode="public" endPc="268435478" name="&lt;init&gt;" parent="EasyBrewApp" startPc="268435460">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435481" name="onStart" parent="EasyBrewApp" startPc="268435479">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435574" name="getInitialView" parent="EasyBrewApp" startPc="268435482">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435595" name="initialize" parent="EasyBrewApp" startPc="268435575">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435606" name="getView" parent="EasyBrewApp" startPc="268435596">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435609" name="onStop" parent="EasyBrewApp" startPc="268435607">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435635" name="getApp" startPc="268435610">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="StateType">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="StateType">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435659" name="&lt;init&gt;" parent="Rez" startPc="268435636">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435697" name="&lt;init&gt;" parent="EasyBrewDelegate" startPc="268435660">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436339" name="onSelect" parent="EasyBrewDelegate" startPc="268435698">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436482" name="startCountdown" parent="EasyBrewDelegate" startPc="268436340">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436916" name="updateCountdownValue" parent="EasyBrewDelegate" startPc="268436483">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436937" name="initialize" parent="EasyBrewDelegate" startPc="268436917">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="DataManager">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="globals/DataManager">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436966" name="getPourMinDuration" parent="DataManager" startPc="268436938">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436998" name="setBrewMaxDuration" parent="DataManager" startPc="268436967">
+<param id="duration"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437030" name="setPourMaxDuration" parent="DataManager" startPc="268436999">
+<param id="duration"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437062" name="setPourMinDuration" parent="DataManager" startPc="268437031">
+<param id="duration"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437091" name="getBrewMinDuration" parent="DataManager" startPc="268437063">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437120" name="getBrewMaxDuration" parent="DataManager" startPc="268437092">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="DataManager">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437152" name="setBrewMinDuration" parent="DataManager" startPc="268437121">
+<param id="duration"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437181" name="getPourMaxDuration" parent="DataManager" startPc="268437153">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437200" name="&lt;init&gt;" parent="EasyBrewView" startPc="268437182">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="EasyBrewView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437405" name="onLayout" parent="EasyBrewView" startPc="268437201">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437573" name="setTimerValue" parent="EasyBrewView" startPc="268437406">
+<param id="value"/>
+<param id="color"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437991" name="setStateTypeValue" parent="EasyBrewView" startPc="268437574">
+<param id="stateType"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438462" name="showResults" parent="EasyBrewView" startPc="268437992">
+<param id="pourValue"/>
+<param id="brewValue"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438589" name="setTotalTimer" parent="EasyBrewView" startPc="268438463">
+<param id="value"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438610" name="initialize" parent="EasyBrewView" startPc="268438590">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="EasyBrewView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438633" name="onUpdate" parent="EasyBrewView" startPc="268438611">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438668" name="getView" startPc="268438634">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Menus">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Fonts">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439403" name="MainLayout" parent="Layouts" startPc="268438669">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+</functions>
+</debugInfo>
