@@ -1,122 +1,122 @@
-[ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/managers/DataManager.mc"; @line = 1; ]
+[ @file = "/Users/martin.bartak/garmin/EasyBrew/source/managers/DataManager.mc"; @line = 1; ]
 import Toybox.Application;
-[ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/managers/DataManager.mc"; @line = 3; ]
+[ @file = "/Users/martin.bartak/garmin/EasyBrew/source/managers/DataManager.mc"; @line = 3; ]
 class DataManager{
-    [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/managers/DataManager.mc"; @line = 3; ]
+    [ @file = "/Users/martin.bartak/garmin/EasyBrew/source/managers/DataManager.mc"; @line = 3; ]
     <init> {
     }
-    [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/managers/DataManager.mc"; @line = 3; ]
+    [ @file = "/Users/martin.bartak/garmin/EasyBrew/source/managers/DataManager.mc"; @line = 3; ]
     static
     <init> {
     }
-    [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/managers/DataManager.mc"; @line = 3; ]
+    [ @file = "/Users/martin.bartak/garmin/EasyBrew/source/managers/DataManager.mc"; @line = 3; ]
     function initialize() as Void {
     }
-    [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/managers/DataManager.mc"; @line = 4; ]
+    [ @file = "/Users/martin.bartak/garmin/EasyBrew/source/managers/DataManager.mc"; @line = 4; ]
     static
     function getPourMinDuration() {
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_managers_DataManager_mc_4_41_start:
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/managers/DataManager.mc" 5 8 ]
+_Users_martin_bartak_garmin_EasyBrew_source_managers_DataManager_mc_4_41_start:
+[ "/Users/martin.bartak/garmin/EasyBrew/source/managers/DataManager.mc" 5 8 ]
         %tmp.1 = getm $.Toybox.Application;
         %tmp.2 = getv %tmp.1 :Properties;
         %tmp.3 = getv function %tmp.2 :getValue;
         %tmp.4 = "pourMinDuration";
         %tmp.5 = invoke %tmp.2 %tmp.3(%tmp.4);
         ret %tmp.5;
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_managers_DataManager_mc_4_41_stop:
+_Users_martin_bartak_garmin_EasyBrew_source_managers_DataManager_mc_4_41_stop:
     }
-    [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/managers/DataManager.mc"; @line = 8; ]
+    [ @file = "/Users/martin.bartak/garmin/EasyBrew/source/managers/DataManager.mc"; @line = 8; ]
     static
     function getPourMaxDuration() {
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_managers_DataManager_mc_8_41_start:
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/managers/DataManager.mc" 9 8 ]
+_Users_martin_bartak_garmin_EasyBrew_source_managers_DataManager_mc_8_41_start:
+[ "/Users/martin.bartak/garmin/EasyBrew/source/managers/DataManager.mc" 9 8 ]
         %tmp.1 = getm $.Toybox.Application;
         %tmp.2 = getv %tmp.1 :Properties;
         %tmp.3 = getv function %tmp.2 :getValue;
         %tmp.4 = "pourMaxDuration";
         %tmp.5 = invoke %tmp.2 %tmp.3(%tmp.4);
         ret %tmp.5;
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_managers_DataManager_mc_8_41_stop:
+_Users_martin_bartak_garmin_EasyBrew_source_managers_DataManager_mc_8_41_stop:
     }
-    [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/managers/DataManager.mc"; @line = 12; ]
+    [ @file = "/Users/martin.bartak/garmin/EasyBrew/source/managers/DataManager.mc"; @line = 12; ]
     static
     function setPourMinDuration(duration) {
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_managers_DataManager_mc_12_49_start:
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/managers/DataManager.mc" 13 8 ]
+_Users_martin_bartak_garmin_EasyBrew_source_managers_DataManager_mc_12_49_start:
+[ "/Users/martin.bartak/garmin/EasyBrew/source/managers/DataManager.mc" 13 8 ]
         %tmp.1 = getm $.Toybox.Application;
         %tmp.2 = getv %tmp.1 :Properties;
         %tmp.3 = getv function %tmp.2 :setValue;
         %tmp.4 = "pourMinDuration";
         %tmp.6 = lgetv %duration;
         invoke %tmp.2 %tmp.3(%tmp.4, %tmp.6);
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_managers_DataManager_mc_12_49_stop:
+_Users_martin_bartak_garmin_EasyBrew_source_managers_DataManager_mc_12_49_stop:
     }
-    [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/managers/DataManager.mc"; @line = 16; ]
+    [ @file = "/Users/martin.bartak/garmin/EasyBrew/source/managers/DataManager.mc"; @line = 16; ]
     static
     function setPourMaxDuration(duration) {
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_managers_DataManager_mc_16_49_start:
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/managers/DataManager.mc" 17 8 ]
+_Users_martin_bartak_garmin_EasyBrew_source_managers_DataManager_mc_16_49_start:
+[ "/Users/martin.bartak/garmin/EasyBrew/source/managers/DataManager.mc" 17 8 ]
         %tmp.1 = getm $.Toybox.Application;
         %tmp.2 = getv %tmp.1 :Properties;
         %tmp.3 = getv function %tmp.2 :setValue;
         %tmp.4 = "pourMaxDuration";
         %tmp.6 = lgetv %duration;
         invoke %tmp.2 %tmp.3(%tmp.4, %tmp.6);
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_managers_DataManager_mc_16_49_stop:
+_Users_martin_bartak_garmin_EasyBrew_source_managers_DataManager_mc_16_49_stop:
     }
-    [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/managers/DataManager.mc"; @line = 20; ]
+    [ @file = "/Users/martin.bartak/garmin/EasyBrew/source/managers/DataManager.mc"; @line = 20; ]
     static
     function getBrewMinDuration() {
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_managers_DataManager_mc_20_41_start:
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/managers/DataManager.mc" 21 8 ]
+_Users_martin_bartak_garmin_EasyBrew_source_managers_DataManager_mc_20_41_start:
+[ "/Users/martin.bartak/garmin/EasyBrew/source/managers/DataManager.mc" 21 8 ]
         %tmp.1 = getm $.Toybox.Application;
         %tmp.2 = getv %tmp.1 :Properties;
         %tmp.3 = getv function %tmp.2 :getValue;
         %tmp.4 = "brewMinDuration";
         %tmp.5 = invoke %tmp.2 %tmp.3(%tmp.4);
         ret %tmp.5;
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_managers_DataManager_mc_20_41_stop:
+_Users_martin_bartak_garmin_EasyBrew_source_managers_DataManager_mc_20_41_stop:
     }
-    [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/managers/DataManager.mc"; @line = 24; ]
+    [ @file = "/Users/martin.bartak/garmin/EasyBrew/source/managers/DataManager.mc"; @line = 24; ]
     static
     function getBrewMaxDuration() {
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_managers_DataManager_mc_24_41_start:
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/managers/DataManager.mc" 25 8 ]
+_Users_martin_bartak_garmin_EasyBrew_source_managers_DataManager_mc_24_41_start:
+[ "/Users/martin.bartak/garmin/EasyBrew/source/managers/DataManager.mc" 25 8 ]
         %tmp.1 = getm $.Toybox.Application;
         %tmp.2 = getv %tmp.1 :Properties;
         %tmp.3 = getv function %tmp.2 :getValue;
         %tmp.4 = "brewMaxDuration";
         %tmp.5 = invoke %tmp.2 %tmp.3(%tmp.4);
         ret %tmp.5;
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_managers_DataManager_mc_24_41_stop:
+_Users_martin_bartak_garmin_EasyBrew_source_managers_DataManager_mc_24_41_stop:
     }
-    [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/managers/DataManager.mc"; @line = 28; ]
+    [ @file = "/Users/martin.bartak/garmin/EasyBrew/source/managers/DataManager.mc"; @line = 28; ]
     static
     function setBrewMinDuration(duration) {
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_managers_DataManager_mc_28_49_start:
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/managers/DataManager.mc" 29 8 ]
+_Users_martin_bartak_garmin_EasyBrew_source_managers_DataManager_mc_28_49_start:
+[ "/Users/martin.bartak/garmin/EasyBrew/source/managers/DataManager.mc" 29 8 ]
         %tmp.1 = getm $.Toybox.Application;
         %tmp.2 = getv %tmp.1 :Properties;
         %tmp.3 = getv function %tmp.2 :setValue;
         %tmp.4 = "brewMinDuration";
         %tmp.6 = lgetv %duration;
         invoke %tmp.2 %tmp.3(%tmp.4, %tmp.6);
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_managers_DataManager_mc_28_49_stop:
+_Users_martin_bartak_garmin_EasyBrew_source_managers_DataManager_mc_28_49_stop:
     }
-    [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/managers/DataManager.mc"; @line = 32; ]
+    [ @file = "/Users/martin.bartak/garmin/EasyBrew/source/managers/DataManager.mc"; @line = 32; ]
     static
     function setBrewMaxDuration(duration) {
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_managers_DataManager_mc_32_49_start:
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/managers/DataManager.mc" 33 8 ]
+_Users_martin_bartak_garmin_EasyBrew_source_managers_DataManager_mc_32_49_start:
+[ "/Users/martin.bartak/garmin/EasyBrew/source/managers/DataManager.mc" 33 8 ]
         %tmp.1 = getm $.Toybox.Application;
         %tmp.2 = getv %tmp.1 :Properties;
         %tmp.3 = getv function %tmp.2 :setValue;
         %tmp.4 = "brewMaxDuration";
         %tmp.6 = lgetv %duration;
         invoke %tmp.2 %tmp.3(%tmp.4, %tmp.6);
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_managers_DataManager_mc_32_49_stop:
+_Users_martin_bartak_garmin_EasyBrew_source_managers_DataManager_mc_32_49_stop:
     }
 }
-[ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/managers/DataManager.mc"; @line = 1; ]
+[ @file = "/Users/martin.bartak/garmin/EasyBrew/source/managers/DataManager.mc"; @line = 1; ]
 <init> {
 }

@@ -1,28 +1,28 @@
-[ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/enums/StateType.mc"; @line = 1; ]
+[ @file = "/Users/martin.bartak/garmin/EasyBrew/source/enums/StateType.mc"; @line = 1; ]
 class StateType{
-    [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/enums/StateType.mc"; @line = 1; ]
+    [ @file = "/Users/martin.bartak/garmin/EasyBrew/source/enums/StateType.mc"; @line = 1; ]
     <init> {
     }
-    [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/enums/StateType.mc"; @line = 1; ]
+    [ @file = "/Users/martin.bartak/garmin/EasyBrew/source/enums/StateType.mc"; @line = 1; ]
     static
     <init> {
     }
-    [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/enums/StateType.mc"; @line = 1; ]
+    [ @file = "/Users/martin.bartak/garmin/EasyBrew/source/enums/StateType.mc"; @line = 1; ]
     function initialize() as Void {
     }
-    [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/enums/StateType.mc"; @line = 2; ]
+    [ @file = "/Users/martin.bartak/garmin/EasyBrew/source/enums/StateType.mc"; @line = 2; ]
     static
     enum {
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/enums/StateType.mc"; @line = 3; @position = 8; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/source/enums/StateType.mc"; @line = 3; @position = 8; ]
         Ready = 1,
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/enums/StateType.mc"; @line = 4; @position = 8; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/source/enums/StateType.mc"; @line = 4; @position = 8; ]
         Pouring,
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/enums/StateType.mc"; @line = 5; @position = 8; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/source/enums/StateType.mc"; @line = 5; @position = 8; ]
         Extraction,
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/enums/StateType.mc"; @line = 6; @position = 8; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/source/enums/StateType.mc"; @line = 6; @position = 8; ]
         Done
     }
 }
-[ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/enums/StateType.mc"; @line = 1; ]
+[ @file = "/Users/martin.bartak/garmin/EasyBrew/source/enums/StateType.mc"; @line = 1; ]
 <init> {
 }

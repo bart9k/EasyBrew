@@ -27,8 +27,7 @@ class EasyBrewDelegate extends WatchUi.BehaviorDelegate {
         //System.println("onSelect: click happened: _currentState=" +_currentState.toString());
         if (_currentState == 2) {
             _finalPourDurations = _currentDuration;
-        }
-        if (_currentState == 3) {
+        } else if (_currentState == 3) {
             _finalBrewDurations = _currentDuration;
         }
         //  bug
@@ -46,9 +45,9 @@ class EasyBrewDelegate extends WatchUi.BehaviorDelegate {
         }
         if (_currentState <4) {
                 _currentState++;
-                System.println("onSelect: increased _currentState=" +_currentState.toString());
+                //System.println("onSelect: increased _currentState=" +_currentState.toString());
         }
-        switch(_currentState) {
+      /*  switch(_currentState) {
             case StateType.Ready:
                 break;
             case StateType.Pouring:
@@ -63,7 +62,21 @@ class EasyBrewDelegate extends WatchUi.BehaviorDelegate {
                 break;
             case StateType.Done:
                 break;
+        } 
+        // Swith replaced by if and else if
+        */ 
+        if (_currentState == StateType.Pouring) {
+            _stateMinDuration = DataManager.getPourMinDuration();
+            _stateMaxDuration = DataManager.getPourMaxDuration();
+            _finalPourDurations = _currentDuration;
+
+        } else if (_currentState == StateType.Extraction) {
+            _stateMinDuration = DataManager.getBrewMinDuration();
+            _stateMaxDuration = DataManager.getBrewMaxDuration();
+            _finalBrewDurations = _currentDuration;
+
         }
+
         startCountdown();
     
         _view.setStateTypeValue(_currentState);

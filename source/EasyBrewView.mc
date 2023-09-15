@@ -1,5 +1,6 @@
 import Toybox.Graphics;
 import Toybox.WatchUi;
+import Toybox.Attention;
 
 class EasyBrewView extends WatchUi.View {
     private var _typeStateElement;
@@ -25,10 +26,6 @@ class EasyBrewView extends WatchUi.View {
         _resultsBrewElement = findDrawableById("resultsBrew");
 
         setStateTypeValue(StateType.Ready);
-
-        //setWaterTypeValue((DataManager.getCyclesCount()-1) % 2 == 0 ? WaterType.Cold : WaterType.Hot);
-        //setTimerValue(DataManager.getCycleDuration());
-        //updateCyclesValue(DataManager.getCyclesCount());
     }
 
     // Called when this View is brought to the foreground. Restore
@@ -50,10 +47,11 @@ class EasyBrewView extends WatchUi.View {
     }
 
 
-// new funtion i need
-// 1. Set title progress - variable tytle type
-// 2. Set timer progress
-// 3. Set total Timer
+
+// vybrace? Attention.vibrate([new Attention.VibeProfile(50, 1000)]);
+
+
+    // This will draw the state label to the screen based on status
     function setStateTypeValue(stateType as StateType) as Void {
         var label = "";
         var durationLabel = "";
@@ -68,11 +66,13 @@ class EasyBrewView extends WatchUi.View {
                 label = "Pouring";
                 durationLabel = "(" + DataManager.getPourMinDuration().toString() + "-" + DataManager.getPourMaxDuration().toString() + "s)";
                 color = Graphics.COLOR_YELLOW;
+                Attention.vibrate([new Attention.VibeProfile(50, 1000)]);
                 break;
             case StateType.Extraction:
                 label = "Extraction";
                 durationLabel = "(" + DataManager.getBrewMinDuration().toString() + "-" + DataManager.getBrewMaxDuration().toString() + "s)";
                 color = Graphics.COLOR_WHITE;
+                Attention.vibrate([new Attention.VibeProfile(50, 1000)]);
                 break;
             case StateType.Done:
                 label = "Done";

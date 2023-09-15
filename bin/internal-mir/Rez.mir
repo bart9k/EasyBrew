@@ -1,48 +1,177 @@
-[ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 1; ]
+[ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 1; ]
 import Toybox.Lang;
-[ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 2; ]
+[ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 2; ]
 using Toybox.WatchUi;
-[ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 3; ]
+[ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 3; ]
 using Toybox.WatchUi as :Ui;
-[ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 4; ]
+[ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 4; ]
 using Toybox.Graphics;
-[ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 5; ]
+[ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 5; ]
 using Toybox.Graphics as :Gfx;
-[ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 7; ]
+[ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 7; ]
 module Rez {
-    [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 7; ]
+    [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 7; ]
     <init> {
     }
-    [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 8; ]
+    [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 8; ]
     module Drawables {
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 8; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 8; ]
         <init> {
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 9; @position = 27; initialized = true; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 9; @position = 27; initialized = true; ]
         var LauncherIcon as Symbol;
     }
-    [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 12; ]
+    [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 12; ]
     module Fonts {
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 12; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 12; ]
         <init> {
         }
     }
-    [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 15; ]
+    [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 15; ]
     module JsonData {
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 15; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 15; ]
         <init> {
         }
     }
-    [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 18; ]
+    [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 18; ]
     module Layouts {
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 18; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 18; ]
         <init> {
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 19; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 19; ]
+        function ResultsLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+_Users_martin_bartak_garmin_EasyBrew_bin_gen_006_B4024_00_source_Rez_mcgen_19_77_start:
+[ "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 20 12 ]
+            [ "_Users_martin_bartak_garmin_EasyBrew_bin_gen_006_B4024_00_source_Rez_mcgen_19_77_start" "_Users_martin_bartak_garmin_EasyBrew_bin_gen_006_B4024_00_source_Rez_mcgen_19_77_stop" ]
+            %rez_cmp_local_text_type_title.1 = local;
+            %tmp.3 = getm $.Toybox.WatchUi;
+            %tmp.4 = getv function ? %tmp.3 :Text;
+            %tmp.5 = newd 6;
+            %tmp.7 = const :identifier;
+            %tmp.8 = "type_title";
+            %tmp.9 = dup %tmp.5;
+            %tmp.10 = aputv %tmp.9 %tmp.7 %tmp.8;
+            %tmp.12 = const :locX;
+            %tmp.13 = 260;
+            %tmp.14 = 0.5;
+            %tmp.15 = mul %tmp.13 %tmp.14;
+            %tmp.16 = dup %tmp.10;
+            %tmp.17 = aputv %tmp.16 %tmp.12 %tmp.15;
+            %tmp.19 = const :locY;
+            %tmp.20 = 260;
+            %tmp.21 = 5;
+            %tmp.22 = 100.0;
+            %tmp.23 = div %tmp.21 %tmp.22;
+            %tmp.24 = mul %tmp.20 %tmp.23;
+            %tmp.25 = dup %tmp.17;
+            %tmp.26 = aputv %tmp.25 %tmp.19 %tmp.24;
+            %tmp.28 = const :text;
+            %tmp.29 = "Results";
+            %tmp.30 = dup %tmp.26;
+            %tmp.31 = aputv %tmp.30 %tmp.28 %tmp.29;
+            %tmp.33 = const :justification;
+            %tmp.34 = getm $.Toybox.Graphics;
+            %tmp.35 = getv %tmp.34 :TEXT_JUSTIFY_CENTER;
+            %tmp.36 = dup %tmp.31;
+            %tmp.37 = aputv %tmp.36 %tmp.33 %tmp.35;
+            %tmp.39 = const :font;
+            %tmp.40 = getm $.Toybox.Graphics;
+            %tmp.41 = getv %tmp.40 :FONT_MEDIUM;
+            %tmp.42 = dup %tmp.37;
+            %tmp.43 = aputv %tmp.42 %tmp.39 %tmp.41;
+            %tmp.1 = newc %tmp.4 (%tmp.43);
+            lputv %rez_cmp_local_text_type_title.1 %tmp.1;
+[ "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 22 12 ]
+            [ "_Users_martin_bartak_garmin_EasyBrew_bin_gen_006_B4024_00_source_Rez_mcgen_19_77_start" "_Users_martin_bartak_garmin_EasyBrew_bin_gen_006_B4024_00_source_Rez_mcgen_19_77_stop" ]
+            %rez_cmp_local_text_resultsPour.2 = local;
+            %tmp.46 = getm $.Toybox.WatchUi;
+            %tmp.47 = getv function ? %tmp.46 :Text;
+            %tmp.48 = newd 5;
+            %tmp.50 = const :identifier;
+            %tmp.51 = "resultsPour";
+            %tmp.52 = dup %tmp.48;
+            %tmp.53 = aputv %tmp.52 %tmp.50 %tmp.51;
+            %tmp.55 = const :locX;
+            %tmp.56 = 260;
+            %tmp.57 = 0.5;
+            %tmp.58 = mul %tmp.56 %tmp.57;
+            %tmp.59 = dup %tmp.53;
+            %tmp.60 = aputv %tmp.59 %tmp.55 %tmp.58;
+            %tmp.62 = const :locY;
+            %tmp.63 = 260;
+            %tmp.64 = 35;
+            %tmp.65 = 100.0;
+            %tmp.66 = div %tmp.64 %tmp.65;
+            %tmp.67 = mul %tmp.63 %tmp.66;
+            %tmp.68 = dup %tmp.60;
+            %tmp.69 = aputv %tmp.68 %tmp.62 %tmp.67;
+            %tmp.71 = const :justification;
+            %tmp.72 = getm $.Toybox.Graphics;
+            %tmp.73 = getv %tmp.72 :TEXT_JUSTIFY_CENTER;
+            %tmp.74 = dup %tmp.69;
+            %tmp.75 = aputv %tmp.74 %tmp.71 %tmp.73;
+            %tmp.77 = const :font;
+            %tmp.78 = getm $.Toybox.Graphics;
+            %tmp.79 = getv %tmp.78 :FONT_MEDIUM;
+            %tmp.80 = dup %tmp.75;
+            %tmp.81 = aputv %tmp.80 %tmp.77 %tmp.79;
+            %tmp.44 = newc %tmp.47 (%tmp.81);
+            lputv %rez_cmp_local_text_resultsPour.2 %tmp.44;
+[ "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 24 12 ]
+            [ "_Users_martin_bartak_garmin_EasyBrew_bin_gen_006_B4024_00_source_Rez_mcgen_19_77_start" "_Users_martin_bartak_garmin_EasyBrew_bin_gen_006_B4024_00_source_Rez_mcgen_19_77_stop" ]
+            %rez_cmp_local_text_resultsBrew.3 = local;
+            %tmp.84 = getm $.Toybox.WatchUi;
+            %tmp.85 = getv function ? %tmp.84 :Text;
+            %tmp.86 = newd 5;
+            %tmp.88 = const :identifier;
+            %tmp.89 = "resultsBrew";
+            %tmp.90 = dup %tmp.86;
+            %tmp.91 = aputv %tmp.90 %tmp.88 %tmp.89;
+            %tmp.93 = const :locX;
+            %tmp.94 = 260;
+            %tmp.95 = 0.5;
+            %tmp.96 = mul %tmp.94 %tmp.95;
+            %tmp.97 = dup %tmp.91;
+            %tmp.98 = aputv %tmp.97 %tmp.93 %tmp.96;
+            %tmp.100 = const :locY;
+            %tmp.101 = 260;
+            %tmp.102 = 50;
+            %tmp.103 = 100.0;
+            %tmp.104 = div %tmp.102 %tmp.103;
+            %tmp.105 = mul %tmp.101 %tmp.104;
+            %tmp.106 = dup %tmp.98;
+            %tmp.107 = aputv %tmp.106 %tmp.100 %tmp.105;
+            %tmp.109 = const :justification;
+            %tmp.110 = getm $.Toybox.Graphics;
+            %tmp.111 = getv %tmp.110 :TEXT_JUSTIFY_CENTER;
+            %tmp.112 = dup %tmp.107;
+            %tmp.113 = aputv %tmp.112 %tmp.109 %tmp.111;
+            %tmp.115 = const :font;
+            %tmp.116 = getm $.Toybox.Graphics;
+            %tmp.117 = getv %tmp.116 :FONT_MEDIUM;
+            %tmp.118 = dup %tmp.113;
+            %tmp.119 = aputv %tmp.118 %tmp.115 %tmp.117;
+            %tmp.82 = newc %tmp.85 (%tmp.119);
+            lputv %rez_cmp_local_text_resultsBrew.3 %tmp.82;
+[ "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 26 12 ]
+            %tmp.120 = newa Array<WatchUi.Drawable> 3;
+            %tmp.122 = lgetv %rez_cmp_local_text_type_title.1;
+            %tmp.123 = dup %tmp.120;
+            %tmp.124 = aputv %tmp.123 0 %tmp.122;
+            %tmp.126 = lgetv %rez_cmp_local_text_resultsPour.2;
+            %tmp.127 = dup %tmp.124;
+            %tmp.128 = aputv %tmp.127 1 %tmp.126;
+            %tmp.130 = lgetv %rez_cmp_local_text_resultsBrew.3;
+            %tmp.131 = dup %tmp.128;
+            %tmp.132 = aputv %tmp.131 2 %tmp.130;
+            ret %tmp.132;
+_Users_martin_bartak_garmin_EasyBrew_bin_gen_006_B4024_00_source_Rez_mcgen_19_77_stop:
+        }
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 29; ]
         function MainLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_bin_gen_006_B4024_00_source_Rez_mcgen_19_74_start:
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 20 12 ]
-            [ "_Users_martin_bartak_garmin_EasyBrew_EasyBrew_bin_gen_006_B4024_00_source_Rez_mcgen_19_74_start" "_Users_martin_bartak_garmin_EasyBrew_EasyBrew_bin_gen_006_B4024_00_source_Rez_mcgen_19_74_stop" ]
+_Users_martin_bartak_garmin_EasyBrew_bin_gen_006_B4024_00_source_Rez_mcgen_29_74_start:
+[ "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 30 12 ]
+            [ "_Users_martin_bartak_garmin_EasyBrew_bin_gen_006_B4024_00_source_Rez_mcgen_29_74_start" "_Users_martin_bartak_garmin_EasyBrew_bin_gen_006_B4024_00_source_Rez_mcgen_29_74_stop" ]
             %rez_cmp_local_text_type_title.1 = local;
             %tmp.3 = getm $.Toybox.WatchUi;
             %tmp.4 = getv function ? %tmp.3 :Text;
@@ -81,8 +210,8 @@ _Users_martin_bartak_garmin_EasyBrew_EasyBrew_bin_gen_006_B4024_00_source_Rez_mc
             %tmp.43 = aputv %tmp.42 %tmp.39 %tmp.41;
             %tmp.1 = newc %tmp.4 (%tmp.43);
             lputv %rez_cmp_local_text_type_title.1 %tmp.1;
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 22 12 ]
-            [ "_Users_martin_bartak_garmin_EasyBrew_EasyBrew_bin_gen_006_B4024_00_source_Rez_mcgen_19_74_start" "_Users_martin_bartak_garmin_EasyBrew_EasyBrew_bin_gen_006_B4024_00_source_Rez_mcgen_19_74_stop" ]
+[ "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 32 12 ]
+            [ "_Users_martin_bartak_garmin_EasyBrew_bin_gen_006_B4024_00_source_Rez_mcgen_29_74_start" "_Users_martin_bartak_garmin_EasyBrew_bin_gen_006_B4024_00_source_Rez_mcgen_29_74_stop" ]
             %rez_cmp_local_text_type_duration.2 = local;
             %tmp.46 = getm $.Toybox.WatchUi;
             %tmp.47 = getv function ? %tmp.46 :Text;
@@ -117,8 +246,8 @@ _Users_martin_bartak_garmin_EasyBrew_EasyBrew_bin_gen_006_B4024_00_source_Rez_mc
             %tmp.81 = aputv %tmp.80 %tmp.77 %tmp.79;
             %tmp.44 = newc %tmp.47 (%tmp.81);
             lputv %rez_cmp_local_text_type_duration.2 %tmp.44;
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 24 12 ]
-            [ "_Users_martin_bartak_garmin_EasyBrew_EasyBrew_bin_gen_006_B4024_00_source_Rez_mcgen_19_74_start" "_Users_martin_bartak_garmin_EasyBrew_EasyBrew_bin_gen_006_B4024_00_source_Rez_mcgen_19_74_stop" ]
+[ "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 34 12 ]
+            [ "_Users_martin_bartak_garmin_EasyBrew_bin_gen_006_B4024_00_source_Rez_mcgen_29_74_start" "_Users_martin_bartak_garmin_EasyBrew_bin_gen_006_B4024_00_source_Rez_mcgen_29_74_stop" ]
             %rez_cmp_local_text_current_timer.3 = local;
             %tmp.84 = getm $.Toybox.WatchUi;
             %tmp.85 = getv function ? %tmp.84 :Text;
@@ -161,8 +290,8 @@ _Users_martin_bartak_garmin_EasyBrew_EasyBrew_bin_gen_006_B4024_00_source_Rez_mc
             %tmp.128 = aputv %tmp.127 %tmp.124 %tmp.126;
             %tmp.82 = newc %tmp.85 (%tmp.128);
             lputv %rez_cmp_local_text_current_timer.3 %tmp.82;
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 26 12 ]
-            [ "_Users_martin_bartak_garmin_EasyBrew_EasyBrew_bin_gen_006_B4024_00_source_Rez_mcgen_19_74_start" "_Users_martin_bartak_garmin_EasyBrew_EasyBrew_bin_gen_006_B4024_00_source_Rez_mcgen_19_74_stop" ]
+[ "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 36 12 ]
+            [ "_Users_martin_bartak_garmin_EasyBrew_bin_gen_006_B4024_00_source_Rez_mcgen_29_74_start" "_Users_martin_bartak_garmin_EasyBrew_bin_gen_006_B4024_00_source_Rez_mcgen_29_74_stop" ]
             %rez_cmp_local_text_total_timer.4 = local;
             %tmp.131 = getm $.Toybox.WatchUi;
             %tmp.132 = getv function ? %tmp.131 :Text;
@@ -201,14 +330,14 @@ _Users_martin_bartak_garmin_EasyBrew_EasyBrew_bin_gen_006_B4024_00_source_Rez_mc
             %tmp.171 = aputv %tmp.170 %tmp.167 %tmp.169;
             %tmp.129 = newc %tmp.132 (%tmp.171);
             lputv %rez_cmp_local_text_total_timer.4 %tmp.129;
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 28 12 ]
-            [ "_Users_martin_bartak_garmin_EasyBrew_EasyBrew_bin_gen_006_B4024_00_source_Rez_mcgen_19_74_start" "_Users_martin_bartak_garmin_EasyBrew_EasyBrew_bin_gen_006_B4024_00_source_Rez_mcgen_19_74_stop" ]
-            %rez_cmp_local_text_resultsPour.5 = local;
+[ "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 38 12 ]
+            [ "_Users_martin_bartak_garmin_EasyBrew_bin_gen_006_B4024_00_source_Rez_mcgen_29_74_start" "_Users_martin_bartak_garmin_EasyBrew_bin_gen_006_B4024_00_source_Rez_mcgen_29_74_stop" ]
+            %rez_cmp_local_text_resultsPourDD.5 = local;
             %tmp.174 = getm $.Toybox.WatchUi;
             %tmp.175 = getv function ? %tmp.174 :Text;
             %tmp.176 = newd 5;
             %tmp.178 = const :identifier;
-            %tmp.179 = "resultsPour";
+            %tmp.179 = "resultsPourDD";
             %tmp.180 = dup %tmp.176;
             %tmp.181 = aputv %tmp.180 %tmp.178 %tmp.179;
             %tmp.183 = const :locX;
@@ -236,15 +365,15 @@ _Users_martin_bartak_garmin_EasyBrew_EasyBrew_bin_gen_006_B4024_00_source_Rez_mc
             %tmp.208 = dup %tmp.203;
             %tmp.209 = aputv %tmp.208 %tmp.205 %tmp.207;
             %tmp.172 = newc %tmp.175 (%tmp.209);
-            lputv %rez_cmp_local_text_resultsPour.5 %tmp.172;
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 30 12 ]
-            [ "_Users_martin_bartak_garmin_EasyBrew_EasyBrew_bin_gen_006_B4024_00_source_Rez_mcgen_19_74_start" "_Users_martin_bartak_garmin_EasyBrew_EasyBrew_bin_gen_006_B4024_00_source_Rez_mcgen_19_74_stop" ]
-            %rez_cmp_local_text_resultsBrew.6 = local;
+            lputv %rez_cmp_local_text_resultsPourDD.5 %tmp.172;
+[ "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 40 12 ]
+            [ "_Users_martin_bartak_garmin_EasyBrew_bin_gen_006_B4024_00_source_Rez_mcgen_29_74_start" "_Users_martin_bartak_garmin_EasyBrew_bin_gen_006_B4024_00_source_Rez_mcgen_29_74_stop" ]
+            %rez_cmp_local_text_resultsBrewDD.6 = local;
             %tmp.212 = getm $.Toybox.WatchUi;
             %tmp.213 = getv function ? %tmp.212 :Text;
             %tmp.214 = newd 5;
             %tmp.216 = const :identifier;
-            %tmp.217 = "resultsBrew";
+            %tmp.217 = "resultsBrewDD";
             %tmp.218 = dup %tmp.214;
             %tmp.219 = aputv %tmp.218 %tmp.216 %tmp.217;
             %tmp.221 = const :locX;
@@ -272,8 +401,8 @@ _Users_martin_bartak_garmin_EasyBrew_EasyBrew_bin_gen_006_B4024_00_source_Rez_mc
             %tmp.246 = dup %tmp.241;
             %tmp.247 = aputv %tmp.246 %tmp.243 %tmp.245;
             %tmp.210 = newc %tmp.213 (%tmp.247);
-            lputv %rez_cmp_local_text_resultsBrew.6 %tmp.210;
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 32 12 ]
+            lputv %rez_cmp_local_text_resultsBrewDD.6 %tmp.210;
+[ "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 42 12 ]
             %tmp.248 = newa Array<WatchUi.Drawable> 6;
             %tmp.250 = lgetv %rez_cmp_local_text_type_title.1;
             %tmp.251 = dup %tmp.248;
@@ -287,1256 +416,1256 @@ _Users_martin_bartak_garmin_EasyBrew_EasyBrew_bin_gen_006_B4024_00_source_Rez_mc
             %tmp.262 = lgetv %rez_cmp_local_text_total_timer.4;
             %tmp.263 = dup %tmp.260;
             %tmp.264 = aputv %tmp.263 3 %tmp.262;
-            %tmp.266 = lgetv %rez_cmp_local_text_resultsPour.5;
+            %tmp.266 = lgetv %rez_cmp_local_text_resultsPourDD.5;
             %tmp.267 = dup %tmp.264;
             %tmp.268 = aputv %tmp.267 4 %tmp.266;
-            %tmp.270 = lgetv %rez_cmp_local_text_resultsBrew.6;
+            %tmp.270 = lgetv %rez_cmp_local_text_resultsBrewDD.6;
             %tmp.271 = dup %tmp.268;
             %tmp.272 = aputv %tmp.271 5 %tmp.270;
             ret %tmp.272;
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_bin_gen_006_B4024_00_source_Rez_mcgen_19_74_stop:
+_Users_martin_bartak_garmin_EasyBrew_bin_gen_006_B4024_00_source_Rez_mcgen_29_74_stop:
         }
     }
-    [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 36; ]
+    [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 46; ]
     module Menus {
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 36; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 46; ]
         <init> {
         }
     }
-    [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 39; ]
+    [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 49; ]
     module Strings {
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 39; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 49; ]
         <init> {
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 40; @position = 27; initialized = true; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 50; @position = 27; initialized = true; ]
         var AppName as Symbol;
     }
-    [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 43; ]
+    [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 53; ]
     module Styles {
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 43; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 53; ]
         <init> {
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 44; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 54; ]
         module prompt_font_enhanced_readability__body_with_title {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 44; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 54; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 45; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 55; @position = 18; ]
             const exclude as Boolean = true;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 48; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 58; ]
         module system_size__menu_header {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 48; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 58; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 49; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 59; @position = 18; ]
             const width as Number = 260;
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 50; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 60; @position = 18; ]
             const height as Number = 81;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 53; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 63; ]
         module system_loc__hint_button_left_bottom {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 53; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 63; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 54; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 64; @position = 18; ]
             const x as Number = 10;
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 55; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 65; @position = 18; ]
             const y as Number = 173;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 58; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 68; ]
         module prompt_font_enhanced_readability__body_no_title {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 58; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 68; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 59; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 69; @position = 18; ]
             const exclude as Boolean = true;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 62; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 72; ]
         module prompt_loc__body_no_title {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 62; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 72; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 63; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 73; @position = 18; ]
             const x as Number = 26;
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 64; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 74; @position = 18; ]
             const y as Number = 26;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 67; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 77; ]
         module system_icon_dark__about {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 67; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 77; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 68; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 78; @position = 18; ]
             const filename as String = "/Users/martin.bartak/Library/Application Support/Garmin/ConnectIQ/Devices/fr955/system_icon_dark__about.svg";
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 69; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 79; @position = 18; ]
             const compress as String = "true";
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 70; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 80; @position = 18; ]
             const dithering as String = "none";
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 71; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 81; @position = 18; ]
             const automaticPalette as String = "true";
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 74; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 84; ]
         module system_icon_light__question {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 74; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 84; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 75; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 85; @position = 18; ]
             const filename as String = "/Users/martin.bartak/Library/Application Support/Garmin/ConnectIQ/Devices/fr955/system_icon_light__question.svg";
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 76; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 86; @position = 18; ]
             const dithering as String = "none";
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 79; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 89; ]
         module system_loc__hint_button_left_top {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 79; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 89; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 80; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 90; @position = 18; ]
             const exclude as Boolean = true;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 83; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 93; ]
         module prompt_font__title {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 83; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 93; ]
             <init> {
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 84 18 ]
+[ "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 94 18 ]
                 %tmp.273 = getm $.Toybox.Graphics;
                 %tmp.274 = getv %tmp.273 :TEXT_JUSTIFY_CENTER;
                 %tmp.275 = getm $.Toybox.Graphics;
                 %tmp.276 = getv %tmp.275 :TEXT_JUSTIFY_VCENTER;
                 %tmp.277 = bitor %tmp.274 %tmp.276;
                 putv self :justification %tmp.277;
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 85 18 ]
+[ "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 95 18 ]
                 %tmp.278 = getm $.Toybox.Graphics;
                 %tmp.279 = getv %tmp.278 :FONT_XTINY;
                 putv self :font %tmp.279;
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 84; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 94; @position = 18; ]
             const justification;
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 85; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 95; @position = 18; ]
             const font;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 88; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 98; ]
         module system_icon_dark__discard {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 88; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 98; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 89; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 99; @position = 18; ]
             const filename as String = "/Users/martin.bartak/Library/Application Support/Garmin/ConnectIQ/Devices/fr955/system_icon_dark__discard.svg";
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 90; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 100; @position = 18; ]
             const compress as String = "true";
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 91; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 101; @position = 18; ]
             const dithering as String = "none";
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 92; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 102; @position = 18; ]
             const automaticPalette as String = "true";
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 95; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 105; ]
         module system_size__menu_item {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 95; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 105; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 96; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 106; @position = 18; ]
             const width as Number = 260;
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 97; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 107; @position = 18; ]
             const height as Number = 68;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 100; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 110; ]
         module system_color_dark__text {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 100; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 110; ]
             <init> {
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 102 18 ]
+[ "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 112 18 ]
                 %tmp.280 = getm $.Toybox.Graphics;
                 %tmp.281 = getv %tmp.280 :COLOR_TRANSPARENT;
                 putv self :background %tmp.281;
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 101; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 111; @position = 18; ]
             const color as Number = 0xFFFFFF;
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 102; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 112; @position = 18; ]
             const background;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 105; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 115; ]
         module system_icon_destructive__discard {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 105; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 115; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 106; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 116; @position = 18; ]
             const filename as String = "/Users/martin.bartak/Library/Application Support/Garmin/ConnectIQ/Devices/fr955/system_icon_destructive__discard.svg";
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 107; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 117; @position = 18; ]
             const dithering as String = "none";
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 110; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 120; ]
         module system_icon_dark__hint_action_menu {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 110; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 120; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 111; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 121; @position = 18; ]
             const filename as String = "/Users/martin.bartak/Library/Application Support/Garmin/ConnectIQ/Devices/fr955/system_icon_dark__hint_button_right_top.svg";
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 112; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 122; @position = 18; ]
             const dithering as String = "none";
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 115; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 125; ]
         module prompt_size__title {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 115; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 125; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 116; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 126; @position = 18; ]
             const width as Number = 208;
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 117; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 127; @position = 18; ]
             const height as Number = 48;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 120; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 130; ]
         module confirmation_font__body {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 120; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 130; ]
             <init> {
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 121 18 ]
+[ "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 131 18 ]
                 %tmp.282 = getm $.Toybox.Graphics;
                 %tmp.283 = getv %tmp.282 :TEXT_JUSTIFY_CENTER;
                 %tmp.284 = getm $.Toybox.Graphics;
                 %tmp.285 = getv %tmp.284 :TEXT_JUSTIFY_VCENTER;
                 %tmp.286 = bitor %tmp.283 %tmp.285;
                 putv self :justification %tmp.286;
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 122 18 ]
+[ "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 132 18 ]
                 %tmp.287 = getm $.Toybox.Graphics;
                 %tmp.288 = getv %tmp.287 :FONT_TINY;
                 putv self :font %tmp.288;
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 121; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 131; @position = 18; ]
             const justification;
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 122; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 132; @position = 18; ]
             const font;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 125; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 135; ]
         module system_color_dark__background {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 125; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 135; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 126; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 136; @position = 18; ]
             const color as Number = 0x000000;
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 127; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 137; @position = 18; ]
             const background as Number = 0x000000;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 130; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 140; ]
         module system_icon_destructive__hint_button_left_top {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 130; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 140; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 131; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 141; @position = 18; ]
             const exclude as Boolean = true;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 134; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 144; ]
         module system_size__launch_icon {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 134; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 144; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 135; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 145; @position = 18; ]
             const scaleX as Number = 40;
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 136; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 146; @position = 18; ]
             const scaleY as Number = 40;
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 137; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 147; @position = 18; ]
             const scaleRelativeTo as String = "screen";
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 140; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 150; ]
         module confirmation_input__confirm {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 140; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 150; ]
             <init> {
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 141 18 ]
+[ "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 151 18 ]
                 %tmp.289 = getm $.Toybox.WatchUi;
                 %tmp.290 = getv %tmp.289 :KEY_ENTER;
                 putv self :button %tmp.290;
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 141; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 151; @position = 18; ]
             const button;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 144; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 154; ]
         module prompt_font__body_with_title {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 144; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 154; ]
             <init> {
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 145 18 ]
+[ "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 155 18 ]
                 %tmp.291 = getm $.Toybox.Graphics;
                 %tmp.292 = getv %tmp.291 :TEXT_JUSTIFY_CENTER;
                 putv self :justification %tmp.292;
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 146 18 ]
+[ "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 156 18 ]
                 %tmp.293 = getm $.Toybox.Graphics;
                 %tmp.294 = getv %tmp.293 :FONT_TINY;
                 putv self :font %tmp.294;
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 145; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 155; @position = 18; ]
             const justification;
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 146; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 156; @position = 18; ]
             const font;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 149; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 159; ]
         module confirmation_loc__body {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 149; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 159; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 150; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 160; @position = 18; ]
             const x as Number = 52;
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 151; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 161; @position = 18; ]
             const y as Number = 52;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 154; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 164; ]
         module system_icon_destructive__hint_button_left_bottom {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 154; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 164; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 155; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 165; @position = 18; ]
             const exclude as Boolean = true;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 158; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 168; ]
         module prompt_color_dark__background {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 158; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 168; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 159; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 169; @position = 18; ]
             const color as Number = 0x000000;
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 160; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 170; @position = 18; ]
             const background as Number = 0x000000;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 163; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 173; ]
         module system_loc__hint_action_menu {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 163; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 173; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 164; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 174; @position = 18; ]
             const x as Number = 227;
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 165; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 175; @position = 18; ]
             const y as Number = 53;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 168; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 178; ]
         module confirmation_icon__hint_confirm {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 168; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 178; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 169; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 179; @position = 18; ]
             const filename as String = "/Users/martin.bartak/Library/Application Support/Garmin/ConnectIQ/Devices/fr955/confirmation_icon__hint_completion.svg";
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 170; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 180; @position = 18; ]
             const dithering as String = "none";
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 173; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 183; ]
         module system_loc__hint_button_left_middle {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 173; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 183; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 174; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 184; @position = 18; ]
             const x as Number = 1;
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 175; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 185; @position = 18; ]
             const y as Number = 109;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 178; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 188; ]
         module prompt_size__body_no_title {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 178; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 188; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 179; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 189; @position = 18; ]
             const width as Number = 208;
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 180; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 190; @position = 18; ]
             const height as Number = 208;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 183; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 193; ]
         module system_icon_light__hint_button_left_top {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 183; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 193; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 184; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 194; @position = 18; ]
             const filename as String = "/Users/martin.bartak/Library/Application Support/Garmin/ConnectIQ/Devices/fr955/system_icon_light__hint_button_left_top.svg";
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 185; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 195; @position = 18; ]
             const dithering as String = "none";
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 188; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 198; ]
         module prompt_color_light__background {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 188; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 198; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 189; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 199; @position = 18; ]
             const color as Number = 0xFFFFFF;
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 190; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 200; @position = 18; ]
             const background as Number = 0xFFFFFF;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 193; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 203; ]
         module confirmation_input__delete {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 193; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 203; ]
             <init> {
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 194 18 ]
+[ "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 204 18 ]
                 %tmp.295 = getm $.Toybox.WatchUi;
                 %tmp.296 = getv %tmp.295 :KEY_ENTER;
                 putv self :button %tmp.296;
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 194; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 204; @position = 18; ]
             const button;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 197; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 207; ]
         module system_icon_dark__hint_button_left_top {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 197; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 207; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 198; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 208; @position = 18; ]
             const filename as String = "/Users/martin.bartak/Library/Application Support/Garmin/ConnectIQ/Devices/fr955/system_icon_dark__hint_button_left_top.svg";
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 199; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 209; @position = 18; ]
             const dithering as String = "none";
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 202; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 212; ]
         module system_input__action_menu {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 202; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 212; ]
             <init> {
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 203 18 ]
+[ "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 213 18 ]
                 %tmp.297 = getm $.Toybox.WatchUi;
                 %tmp.298 = getv %tmp.297 :KEY_ENTER;
                 putv self :button %tmp.298;
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 203; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 213; @position = 18; ]
             const button;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 206; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 216; ]
         module system_icon_light__save {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 206; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 216; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 207; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 217; @position = 18; ]
             const filename as String = "/Users/martin.bartak/Library/Application Support/Garmin/ConnectIQ/Devices/fr955/system_icon_light__save.svg";
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 208; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 218; @position = 18; ]
             const dithering as String = "none";
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 211; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 221; ]
         module prompt_color_light__body {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 211; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 221; ]
             <init> {
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 213 18 ]
+[ "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 223 18 ]
                 %tmp.299 = getm $.Toybox.Graphics;
                 %tmp.300 = getv %tmp.299 :COLOR_TRANSPARENT;
                 putv self :background %tmp.300;
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 212; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 222; @position = 18; ]
             const color as Number = 0x000000;
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 213; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 223; @position = 18; ]
             const background;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 216; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 226; ]
         module system_loc__subwindow {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 216; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 226; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 217; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 227; @position = 18; ]
             const exclude as Boolean = true;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 220; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 230; ]
         module system_icon_light__warning {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 220; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 230; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 221; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 231; @position = 18; ]
             const filename as String = "/Users/martin.bartak/Library/Application Support/Garmin/ConnectIQ/Devices/fr955/system_icon_light__warning.svg";
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 222; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 232; @position = 18; ]
             const dithering as String = "none";
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 225; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 235; ]
         module confirmation_color_light__body {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 225; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 235; ]
             <init> {
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 227 18 ]
+[ "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 237 18 ]
                 %tmp.301 = getm $.Toybox.Graphics;
                 %tmp.302 = getv %tmp.301 :COLOR_TRANSPARENT;
                 putv self :background %tmp.302;
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 226; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 236; @position = 18; ]
             const color as Number = 0x000000;
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 227; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 237; @position = 18; ]
             const background;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 230; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 240; ]
         module activity_color_light__background {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 230; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 240; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 231; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 241; @position = 18; ]
             const color as Number = 0xFFFFFF;
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 232; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 242; @position = 18; ]
             const background as Number = 0xFFFFFF;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 235; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 245; ]
         module system_icon_positive__hint_button_right_top {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 235; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 245; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 236; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 246; @position = 18; ]
             const exclude as Boolean = true;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 239; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 249; ]
         module system_size__screen {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 239; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 249; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 240; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 250; @position = 18; ]
             const width as Number = 260;
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 241; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 251; @position = 18; ]
             const height as Number = 260;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 244; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 254; ]
         module system_icon_destructive__hint_button_right_bottom {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 244; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 254; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 245; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 255; @position = 18; ]
             const exclude as Boolean = true;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 248; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 258; ]
         module system_color_light__background {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 248; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 258; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 249; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 259; @position = 18; ]
             const color as Number = 0xFFFFFF;
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 250; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 260; @position = 18; ]
             const background as Number = 0xFFFFFF;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 253; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 263; ]
         module system_icon_destructive__hint_button_right_top {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 253; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 263; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 254; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 264; @position = 18; ]
             const exclude as Boolean = true;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 257; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 267; ]
         module confirmation_loc__hint_confirm {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 257; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 267; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 258; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 268; @position = 18; ]
             const x as Number = 205;
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 259; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 269; @position = 18; ]
             const y as Number = 50;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 262; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 272; ]
         module activity_color_dark__text {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 262; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 272; ]
             <init> {
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 264 18 ]
+[ "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 274 18 ]
                 %tmp.303 = getm $.Toybox.Graphics;
                 %tmp.304 = getv %tmp.303 :COLOR_TRANSPARENT;
                 putv self :background %tmp.304;
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 263; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 273; @position = 18; ]
             const color as Number = 0xFFFFFF;
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 264; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 274; @position = 18; ]
             const background;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 267; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 277; ]
         module confirmation_input__keep {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 267; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 277; ]
             <init> {
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 268 18 ]
+[ "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 278 18 ]
                 %tmp.305 = getm $.Toybox.WatchUi;
                 %tmp.306 = getv %tmp.305 :KEY_DOWN;
                 putv self :button %tmp.306;
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 268; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 278; @position = 18; ]
             const button;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 271; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 281; ]
         module prompt_loc__body_with_title {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 271; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 281; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 272; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 282; @position = 18; ]
             const x as Number = 26;
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 273; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 283; @position = 18; ]
             const y as Number = 78;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 276; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 286; ]
         module system_icon_dark__search {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 276; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 286; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 277; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 287; @position = 18; ]
             const filename as String = "/Users/martin.bartak/Library/Application Support/Garmin/ConnectIQ/Devices/fr955/system_icon_dark__search.svg";
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 278; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 288; @position = 18; ]
             const compress as String = "true";
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 279; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 289; @position = 18; ]
             const dithering as String = "none";
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 280; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 290; @position = 18; ]
             const automaticPalette as String = "true";
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 283; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 293; ]
         module activity_color_light__text {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 283; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 293; ]
             <init> {
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 285 18 ]
+[ "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 295 18 ]
                 %tmp.307 = getm $.Toybox.Graphics;
                 %tmp.308 = getv %tmp.307 :COLOR_TRANSPARENT;
                 putv self :background %tmp.308;
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 284; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 294; @position = 18; ]
             const color as Number = 0x000000;
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 285; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 295; @position = 18; ]
             const background;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 288; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 298; ]
         module confirmation_icon__hint_keep {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 288; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 298; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 289; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 299; @position = 18; ]
             const filename as String = "/Users/martin.bartak/Library/Application Support/Garmin/ConnectIQ/Devices/fr955/confirmation_icon__hint_keep.svg";
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 290; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 300; @position = 18; ]
             const dithering as String = "none";
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 293; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 303; ]
         module system_icon_dark__save {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 293; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 303; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 294; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 304; @position = 18; ]
             const filename as String = "/Users/martin.bartak/Library/Application Support/Garmin/ConnectIQ/Devices/fr955/system_icon_dark__save.svg";
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 295; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 305; @position = 18; ]
             const compress as String = "true";
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 296; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 306; @position = 18; ]
             const dithering as String = "none";
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 297; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 307; @position = 18; ]
             const automaticPalette as String = "true";
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 300; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 310; ]
         module system_icon_destructive__hint_button_left_middle {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 300; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 310; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 301; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 311; @position = 18; ]
             const exclude as Boolean = true;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 304; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 314; ]
         module system_icon_light__search {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 304; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 314; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 305; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 315; @position = 18; ]
             const filename as String = "/Users/martin.bartak/Library/Application Support/Garmin/ConnectIQ/Devices/fr955/system_icon_light__search.svg";
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 306; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 316; @position = 18; ]
             const dithering as String = "none";
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 309; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 319; ]
         module system_icon_dark__hint_button_left_bottom {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 309; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 319; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 310; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 320; @position = 18; ]
             const filename as String = "/Users/martin.bartak/Library/Application Support/Garmin/ConnectIQ/Devices/fr955/system_icon_dark__hint_button_left_bottom.svg";
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 311; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 321; @position = 18; ]
             const dithering as String = "none";
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 314; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 324; ]
         module system_icon_positive__hint_button_left_top {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 314; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 324; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 315; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 325; @position = 18; ]
             const exclude as Boolean = true;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 318; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 328; ]
         module system_loc__hint_button_right_bottom {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 318; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 328; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 319; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 329; @position = 18; ]
             const x as Number = 224;
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 320; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 330; @position = 18; ]
             const y as Number = 172;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 323; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 333; ]
         module confirmation_color_dark__body {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 323; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 333; ]
             <init> {
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 325 18 ]
+[ "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 335 18 ]
                 %tmp.309 = getm $.Toybox.Graphics;
                 %tmp.310 = getv %tmp.309 :COLOR_TRANSPARENT;
                 putv self :background %tmp.310;
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 324; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 334; @position = 18; ]
             const color as Number = 0xFFFFFF;
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 325; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 335; @position = 18; ]
             const background;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 328; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 338; ]
         module prompt_color_dark__title {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 328; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 338; ]
             <init> {
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 330 18 ]
+[ "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 340 18 ]
                 %tmp.311 = getm $.Toybox.Graphics;
                 %tmp.312 = getv %tmp.311 :COLOR_TRANSPARENT;
                 putv self :background %tmp.312;
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 329; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 339; @position = 18; ]
             const color as Number = 0xFFFFFF;
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 330; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 340; @position = 18; ]
             const background;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 333; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 343; ]
         module system_icon_destructive__cancel {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 333; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 343; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 334; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 344; @position = 18; ]
             const filename as String = "/Users/martin.bartak/Library/Application Support/Garmin/ConnectIQ/Devices/fr955/system_icon_destructive__cancel.svg";
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 335; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 345; @position = 18; ]
             const dithering as String = "none";
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 338; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 348; ]
         module system_icon_light__hint_button_right_bottom {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 338; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 348; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 339; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 349; @position = 18; ]
             const filename as String = "/Users/martin.bartak/Library/Application Support/Garmin/ConnectIQ/Devices/fr955/system_icon_light__hint_button_right_bottom.svg";
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 340; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 350; @position = 18; ]
             const dithering as String = "none";
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 343; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 353; ]
         module prompt_loc__title {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 343; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 353; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 344; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 354; @position = 18; ]
             const x as Number = 26;
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 345; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 355; @position = 18; ]
             const y as Number = 19;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 348; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 358; ]
         module confirmation_font_enhanced_readability__body {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 348; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 358; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 349; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 359; @position = 18; ]
             const exclude as Boolean = true;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 352; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 362; ]
         module prompt_color_light__title {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 352; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 362; ]
             <init> {
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 354 18 ]
+[ "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 364 18 ]
                 %tmp.313 = getm $.Toybox.Graphics;
                 %tmp.314 = getv %tmp.313 :COLOR_TRANSPARENT;
                 putv self :background %tmp.314;
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 353; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 363; @position = 18; ]
             const color as Number = 0x000000;
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 354; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 364; @position = 18; ]
             const background;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 357; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 367; ]
         module system_icon_dark__hint_button_right_top {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 357; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 367; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 358; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 368; @position = 18; ]
             const filename as String = "/Users/martin.bartak/Library/Application Support/Garmin/ConnectIQ/Devices/fr955/system_icon_dark__hint_button_right_top.svg";
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 359; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 369; @position = 18; ]
             const dithering as String = "none";
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 362; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 372; ]
         module system_icon_dark__hint_button_left_middle {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 362; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 372; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 363; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 373; @position = 18; ]
             const filename as String = "/Users/martin.bartak/Library/Application Support/Garmin/ConnectIQ/Devices/fr955/system_icon_dark__hint_button_left_middle.svg";
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 364; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 374; @position = 18; ]
             const dithering as String = "none";
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 367; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 377; ]
         module system_icon_light__cancel {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 367; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 377; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 368; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 378; @position = 18; ]
             const filename as String = "/Users/martin.bartak/Library/Application Support/Garmin/ConnectIQ/Devices/fr955/system_icon_light__cancel.svg";
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 369; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 379; @position = 18; ]
             const dithering as String = "none";
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 372; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 382; ]
         module system_icon_light__about {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 372; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 382; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 373; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 383; @position = 18; ]
             const filename as String = "/Users/martin.bartak/Library/Application Support/Garmin/ConnectIQ/Devices/fr955/system_icon_light__about.svg";
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 374; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 384; @position = 18; ]
             const dithering as String = "none";
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 377; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 387; ]
         module system_size__toast_icon {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 377; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 387; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 378; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 388; @position = 18; ]
             const scaleX as Number = 21;
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 379; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 389; @position = 18; ]
             const scaleY as Number = 21;
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 380; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 390; @position = 18; ]
             const scaleRelativeTo as String = "screen";
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 383; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 393; ]
         module system_icon_dark__hint_button_right_middle {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 383; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 393; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 384; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 394; @position = 18; ]
             const exclude as Boolean = true;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 387; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 397; ]
         module confirmation_icon__hint_reject {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 387; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 397; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 388; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 398; @position = 18; ]
             const filename as String = "/Users/martin.bartak/Library/Application Support/Garmin/ConnectIQ/Devices/fr955/confirmation_icon__hint_reject.svg";
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 389; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 399; @position = 18; ]
             const dithering as String = "none";
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 392; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 402; ]
         module system_icon_light__hint_action_menu {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 392; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 402; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 393; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 403; @position = 18; ]
             const filename as String = "/Users/martin.bartak/Library/Application Support/Garmin/ConnectIQ/Devices/fr955/system_icon_light__hint_button_right_top.svg";
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 394; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 404; @position = 18; ]
             const dithering as String = "none";
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 397; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 407; ]
         module system_icon_light__hint_button_right_middle {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 397; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 407; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 398; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 408; @position = 18; ]
             const exclude as Boolean = true;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 401; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 411; ]
         module system_icon_destructive__hint_button_right_middle {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 401; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 411; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 402; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 412; @position = 18; ]
             const exclude as Boolean = true;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 405; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 415; ]
         module confirmation_loc__hint_reject {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 405; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 415; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 406; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 416; @position = 18; ]
             const x as Number = 13;
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 407; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 417; @position = 18; ]
             const y as Number = 174;
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 408; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 418; @position = 18; ]
             const horizontalJustification as String = "left";
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 411; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 421; ]
         module activity_color_dark__background {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 411; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 421; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 412; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 422; @position = 18; ]
             const color as Number = 0x000000;
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 413; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 423; @position = 18; ]
             const background as Number = 0x000000;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 416; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 426; ]
         module system_icon_light__hint_button_left_bottom {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 416; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 426; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 417; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 427; @position = 18; ]
             const filename as String = "/Users/martin.bartak/Library/Application Support/Garmin/ConnectIQ/Devices/fr955/system_icon_light__hint_button_left_bottom.svg";
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 418; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 428; @position = 18; ]
             const dithering as String = "none";
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 421; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 431; ]
         module system_icon_positive__hint_button_left_middle {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 421; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 431; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 422; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 432; @position = 18; ]
             const exclude as Boolean = true;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 425; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 435; ]
         module system_size__menu_icon {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 425; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 435; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 426; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 436; @position = 18; ]
             const scaleX as Number = 40;
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 427; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 437; @position = 18; ]
             const scaleY as Number = 40;
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 428; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 438; @position = 18; ]
             const scaleRelativeTo as String = "screen";
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 431; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 441; ]
         module system_icon_destructive__warning {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 431; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 441; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 432; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 442; @position = 18; ]
             const filename as String = "/Users/martin.bartak/Library/Application Support/Garmin/ConnectIQ/Devices/fr955/system_icon_destructive__warning.svg";
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 433; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 443; @position = 18; ]
             const dithering as String = "none";
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 436; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 446; ]
         module system_loc__hint_button_right_middle {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 436; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 446; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 437; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 447; @position = 18; ]
             const exclude as Boolean = true;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 440; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 450; ]
         module system_icon_dark__cancel {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 440; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 450; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 441; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 451; @position = 18; ]
             const filename as String = "/Users/martin.bartak/Library/Application Support/Garmin/ConnectIQ/Devices/fr955/system_icon_dark__cancel.svg";
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 442; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 452; @position = 18; ]
             const compress as String = "true";
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 443; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 453; @position = 18; ]
             const dithering as String = "none";
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 444; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 454; @position = 18; ]
             const automaticPalette as String = "true";
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 447; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 457; ]
         module prompt_size__body_with_title {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 447; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 457; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 448; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 458; @position = 18; ]
             const width as Number = 208;
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 449; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 459; @position = 18; ]
             const height as Number = 156;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 452; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 462; ]
         module system_loc__hint_button_right_top {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 452; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 462; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 453; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 463; @position = 18; ]
             const x as Number = 224;
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 454; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 464; @position = 18; ]
             const y as Number = 50;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 457; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 467; ]
         module system_color_light__text {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 457; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 467; ]
             <init> {
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 459 18 ]
+[ "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 469 18 ]
                 %tmp.315 = getm $.Toybox.Graphics;
                 %tmp.316 = getv %tmp.315 :COLOR_TRANSPARENT;
                 putv self :background %tmp.316;
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 458; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 468; @position = 18; ]
             const color as Number = 0x000000;
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 459; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 469; @position = 18; ]
             const background;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 462; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 472; ]
         module system_icon_light__check {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 462; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 472; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 463; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 473; @position = 18; ]
             const filename as String = "/Users/martin.bartak/Library/Application Support/Garmin/ConnectIQ/Devices/fr955/system_icon_light__check.svg";
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 464; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 474; @position = 18; ]
             const dithering as String = "none";
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 467; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 477; ]
         module confirmation_input__reject {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 467; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 477; ]
             <init> {
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 468 18 ]
+[ "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 478 18 ]
                 %tmp.317 = getm $.Toybox.WatchUi;
                 %tmp.318 = getv %tmp.317 :KEY_DOWN;
                 putv self :button %tmp.318;
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 468; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 478; @position = 18; ]
             const button;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 471; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 481; ]
         module system_icon_light__revert {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 471; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 481; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 472; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 482; @position = 18; ]
             const filename as String = "/Users/martin.bartak/Library/Application Support/Garmin/ConnectIQ/Devices/fr955/system_icon_light__revert.svg";
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 473; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 483; @position = 18; ]
             const dithering as String = "none";
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 476; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 486; ]
         module system_size__subwindow {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 476; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 486; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 477; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 487; @position = 18; ]
             const exclude as Boolean = true;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 480; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 490; ]
         module system_icon_positive__hint_button_left_bottom {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 480; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 490; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 481; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 491; @position = 18; ]
             const exclude as Boolean = true;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 484; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 494; ]
         module system_icon_dark__check {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 484; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 494; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 485; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 495; @position = 18; ]
             const filename as String = "/Users/martin.bartak/Library/Application Support/Garmin/ConnectIQ/Devices/fr955/system_icon_dark__check.svg";
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 486; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 496; @position = 18; ]
             const compress as String = "true";
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 487; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 497; @position = 18; ]
             const dithering as String = "none";
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 488; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 498; @position = 18; ]
             const automaticPalette as String = "true";
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 491; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 501; ]
         module confirmation_loc__hint_keep {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 491; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 501; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 492; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 502; @position = 18; ]
             const x as Number = 13;
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 493; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 503; @position = 18; ]
             const y as Number = 174;
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 494; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 504; @position = 18; ]
             const horizontalJustification as String = "left";
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 497; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 507; ]
         module confirmation_loc__hint_delete {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 497; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 507; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 498; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 508; @position = 18; ]
             const x as Number = 208;
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 499; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 509; @position = 18; ]
             const y as Number = 50;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 502; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 512; ]
         module system_icon_positive__hint_button_right_middle {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 502; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 512; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 503; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 513; @position = 18; ]
             const exclude as Boolean = true;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 506; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 516; ]
         module system_icon_light__hint_button_left_middle {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 506; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 516; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 507; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 517; @position = 18; ]
             const filename as String = "/Users/martin.bartak/Library/Application Support/Garmin/ConnectIQ/Devices/fr955/system_icon_light__hint_button_left_middle.svg";
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 508; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 518; @position = 18; ]
             const dithering as String = "none";
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 511; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 521; ]
         module system_icon_dark__hint_button_right_bottom {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 511; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 521; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 512; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 522; @position = 18; ]
             const filename as String = "/Users/martin.bartak/Library/Application Support/Garmin/ConnectIQ/Devices/fr955/system_icon_dark__hint_button_right_bottom.svg";
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 513; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 523; @position = 18; ]
             const dithering as String = "none";
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 516; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 526; ]
         module system_icon_positive__hint_button_right_bottom {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 516; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 526; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 517; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 527; @position = 18; ]
             const exclude as Boolean = true;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 520; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 530; ]
         module system_icon_dark__revert {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 520; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 530; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 521; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 531; @position = 18; ]
             const filename as String = "/Users/martin.bartak/Library/Application Support/Garmin/ConnectIQ/Devices/fr955/system_icon_dark__revert.svg";
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 522; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 532; @position = 18; ]
             const compress as String = "true";
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 523; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 533; @position = 18; ]
             const dithering as String = "none";
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 524; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 534; @position = 18; ]
             const automaticPalette as String = "true";
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 527; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 537; ]
         module system_icon_dark__question {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 527; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 537; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 528; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 538; @position = 18; ]
             const filename as String = "/Users/martin.bartak/Library/Application Support/Garmin/ConnectIQ/Devices/fr955/system_icon_dark__question.svg";
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 529; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 539; @position = 18; ]
             const compress as String = "true";
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 530; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 540; @position = 18; ]
             const dithering as String = "none";
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 531; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 541; @position = 18; ]
             const automaticPalette as String = "true";
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 534; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 544; ]
         module system_icon_light__discard {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 534; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 544; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 535; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 545; @position = 18; ]
             const filename as String = "/Users/martin.bartak/Library/Application Support/Garmin/ConnectIQ/Devices/fr955/system_icon_light__discard.svg";
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 536; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 546; @position = 18; ]
             const dithering as String = "none";
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 539; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 549; ]
         module device_info {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 539; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 549; ]
             <init> {
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 541 18 ]
+[ "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 551 18 ]
                 %tmp.319 = getm $.Toybox.System;
                 %tmp.320 = getv %tmp.319 :SCREEN_SHAPE_ROUND;
                 putv self :screenShape %tmp.320;
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 540; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 550; @position = 18; ]
             const screenWidth as Number = 260;
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 541; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 551; @position = 18; ]
             const screenShape;
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 542; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 552; @position = 18; ]
             const hasNightMode as Boolean = false;
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 543; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 553; @position = 18; ]
             const screenHeight as Number = 260;
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 544; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 554; @position = 18; ]
             const hasTouchScreen as Boolean = true;
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 545; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 555; @position = 18; ]
             const hasEnhancedReadabilityMode as Boolean = false;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 548; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 558; ]
         module prompt_font__body_no_title {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 548; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 558; ]
             <init> {
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 549 18 ]
+[ "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 559 18 ]
                 %tmp.321 = getm $.Toybox.Graphics;
                 %tmp.322 = getv %tmp.321 :TEXT_JUSTIFY_CENTER;
                 %tmp.323 = getm $.Toybox.Graphics;
                 %tmp.324 = getv %tmp.323 :TEXT_JUSTIFY_VCENTER;
                 %tmp.325 = bitor %tmp.322 %tmp.324;
                 putv self :justification %tmp.325;
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 550 18 ]
+[ "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 560 18 ]
                 %tmp.326 = getm $.Toybox.Graphics;
                 %tmp.327 = getv %tmp.326 :FONT_TINY;
                 putv self :font %tmp.327;
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 549; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 559; @position = 18; ]
             const justification;
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 550; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 560; @position = 18; ]
             const font;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 553; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 563; ]
         module prompt_size__title_icon {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 553; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 563; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 554; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 564; @position = 18; ]
             const scaleX as Float = 0.1539;
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 555; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 565; @position = 18; ]
             const scaleRelativeTo as String = "screen";
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 558; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 568; ]
         module system_icon_dark__warning {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 558; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 568; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 559; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 569; @position = 18; ]
             const filename as String = "/Users/martin.bartak/Library/Application Support/Garmin/ConnectIQ/Devices/fr955/system_icon_dark__warning.svg";
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 560; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 570; @position = 18; ]
             const compress as String = "true";
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 561; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 571; @position = 18; ]
             const dithering as String = "none";
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 562; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 572; @position = 18; ]
             const automaticPalette as String = "true";
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 565; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 575; ]
         module prompt_loc__title_icon {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 565; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 575; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 566; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 576; @position = 18; ]
             const x as Number = 130;
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 567; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 577; @position = 18; ]
             const y as Number = 39;
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 568; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 578; @position = 18; ]
             const horizontalJustification as String = "center";
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 569; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 579; @position = 18; ]
             const verticalJustification as String = "center";
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 572; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 582; ]
         module prompt_font_enhanced_readability__title {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 572; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 582; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 573; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 583; @position = 18; ]
             const exclude as Boolean = true;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 576; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 586; ]
         module prompt_color_dark__body {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 576; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 586; ]
             <init> {
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 578 18 ]
+[ "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen" 588 18 ]
                 %tmp.328 = getm $.Toybox.Graphics;
                 %tmp.329 = getv %tmp.328 :COLOR_TRANSPARENT;
                 putv self :background %tmp.329;
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 577; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 587; @position = 18; ]
             const color as Number = 0xFFFFFF;
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 578; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 588; @position = 18; ]
             const background;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 581; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 591; ]
         module confirmation_icon__hint_delete {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 581; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 591; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 582; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 592; @position = 18; ]
             const filename as String = "/Users/martin.bartak/Library/Application Support/Garmin/ConnectIQ/Devices/fr955/confirmation_icon__hint_delete.svg";
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 583; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 593; @position = 18; ]
             const dithering as String = "none";
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 586; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 596; ]
         module system_icon_light__hint_button_right_top {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 586; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 596; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 587; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 597; @position = 18; ]
             const filename as String = "/Users/martin.bartak/Library/Application Support/Garmin/ConnectIQ/Devices/fr955/system_icon_light__hint_button_right_top.svg";
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 588; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 598; @position = 18; ]
             const dithering as String = "none";
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 591; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 601; ]
         module confirmation_size__body {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 591; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 601; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 592; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 602; @position = 18; ]
             const width as Number = 156;
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 593; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 603; @position = 18; ]
             const height as Number = 156;
         }
-        [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 596; ]
+        [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 606; ]
         module system_icon_positive__check {
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 596; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 606; ]
             <init> {
             }
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 597; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 607; @position = 18; ]
             const filename as String = "/Users/martin.bartak/Library/Application Support/Garmin/ConnectIQ/Devices/fr955/system_icon_positive__check.svg";
-            [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 598; @position = 18; ]
+            [ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 608; @position = 18; ]
             const dithering as String = "none";
         }
     }
 }
-[ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 1; ]
+[ @file = "/Users/martin.bartak/garmin/EasyBrew/bin/gen/006-B4024-00/source/Rez.mcgen"; @line = 1; ]
 <init> {
 }

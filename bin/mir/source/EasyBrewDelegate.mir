@@ -1,96 +1,97 @@
-[ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc"; @line = 1; ]
+[ @file = "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc"; @line = 1; ]
 import Toybox.Lang;
-[ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc"; @line = 2; ]
+[ @file = "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc"; @line = 2; ]
 import Toybox.WatchUi;
-[ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc"; @line = 3; ]
+[ @file = "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc"; @line = 3; ]
 import Toybox.System;
-[ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc"; @line = 4; ]
+[ @file = "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc"; @line = 4; ]
 import Toybox.Timer;
-[ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc"; @line = 6; ]
+[ @file = "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc"; @line = 6; ]
 class EasyBrewDelegate extends WatchUi.BehaviorDelegate{
-    [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc"; @line = 6; ]
+    [ @file = "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc"; @line = 6; ]
     <init> {
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" 20 16 ]
+[ "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc" 20 16 ]
         %tmp.1 = self;
         %tmp.2 = getv function %tmp.1 :getView;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         putv self :_view %tmp.3;
     }
-    [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc"; @line = 6; ]
+    [ @file = "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc"; @line = 6; ]
     static
     <init> {
     }
-    [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc"; @line = 8; @position = 16; ]
+    [ @file = "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc"; @line = 8; @position = 16; ]
     private
     var _inProgress = false;
-    [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc"; @line = 10; @position = 16; ]
+    [ @file = "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc"; @line = 10; @position = 16; ]
     private
     var _currentDuration = 0;
-    [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc"; @line = 11; @position = 16; ]
+    [ @file = "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc"; @line = 11; @position = 16; ]
     private
     var _currentState = 1;
-    [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc"; @line = 12; @position = 16; ]
+    [ @file = "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc"; @line = 12; @position = 16; ]
     private
     var _stateMinDuration = 0;
-    [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc"; @line = 13; @position = 16; ]
+    [ @file = "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc"; @line = 13; @position = 16; ]
     private
     var _stateMaxDuration = 0;
-    [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc"; @line = 14; @position = 16; ]
+    [ @file = "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc"; @line = 14; @position = 16; ]
     private
     var _totalDuration = 0;
-    [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc"; @line = 15; @position = 16; ]
+    [ @file = "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc"; @line = 15; @position = 16; ]
     private
     var _finalPourDurations = 0;
-    [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc"; @line = 16; @position = 16; ]
+    [ @file = "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc"; @line = 16; @position = 16; ]
     private
     var _finalBrewDurations = 0;
-    [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc"; @line = 18; @position = 16; ]
+    [ @file = "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc"; @line = 18; @position = 16; ]
     private
     var _timer;
-    [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc"; @line = 20; @position = 16; ]
+    [ @file = "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc"; @line = 20; @position = 16; ]
     private
     var _view;
-    [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc"; @line = 22; ]
+    [ @file = "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc"; @line = 22; ]
     function initialize() as Void {
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_22_26_start:
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" 23 8 ]
+_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_22_26_start:
+[ "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc" 23 8 ]
         %tmp.2 = getv ? :BehaviorDelegate;
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_22_26_stop:
+_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_22_26_stop:
     }
-    [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc"; @line = 26; ]
+    [ @file = "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc"; @line = 26; ]
     function onSelect() as Boolean {
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_26_35_start:
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" 28 8 ]
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_28_8_if_stmt:
+_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_26_35_start:
+[ "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc" 28 8 ]
+_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_28_8_if_stmt:
         %tmp.2 = getv ? :_currentState;
         %tmp.3 = 2;
         %tmp.4 = eq %tmp.2 %tmp.3;
-        bf %tmp.4 @_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_28_8_if_end;
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_28_8_if_true:
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_28_32_start:
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" 29 12 ]
+        bf %tmp.4 @_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_28_8_if_false;
+_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_28_8_if_true:
+_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_28_32_start:
+[ "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc" 29 12 ]
         %tmp.6 = getv ? :_currentDuration;
         putv self :_finalPourDurations %tmp.6;
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_28_32_stop:
-        goto @_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_28_8_if_end;
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_28_8_if_end:
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" 31 8 ]
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_31_8_if_stmt:
+_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_28_32_stop:
+        goto @_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_28_8_if_end;
+_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_28_8_if_false:
+[ "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc" 30 15 ]
+_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_30_15_if_stmt:
         %tmp.8 = getv ? :_currentState;
         %tmp.9 = 3;
         %tmp.10 = eq %tmp.8 %tmp.9;
-        bf %tmp.10 @_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_31_8_if_end;
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_31_8_if_true:
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_31_32_start:
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" 32 12 ]
+        bf %tmp.10 @_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_30_15_if_end;
+_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_30_15_if_true:
+_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_30_39_start:
+[ "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc" 31 12 ]
         %tmp.12 = getv ? :_currentDuration;
         putv self :_finalBrewDurations %tmp.12;
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_31_32_stop:
-        goto @_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_31_8_if_end;
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_31_8_if_end:
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" 38 8 ]
+_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_30_39_stop:
+        goto @_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_30_15_if_end;
+_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_30_15_if_end:
+_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_28_8_if_end:
+[ "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc" 37 8 ]
         %tmp.13 = getm $.Toybox.System;
         %tmp.14 = getv function %tmp.13 :println;
         %tmp.15 = "onSelect: _currentState = ";
@@ -105,7 +106,7 @@ _Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_31_8_if
         %tmp.26 = invoke %tmp.24 %tmp.25();
         %tmp.27 = add %tmp.22 %tmp.26;
         invoke %tmp.13 %tmp.14(%tmp.27);
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" 39 8 ]
+[ "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc" 38 8 ]
         %tmp.28 = getm $.Toybox.System;
         %tmp.29 = getv function %tmp.28 :println;
         %tmp.30 = "onSelect: _stateMinDuration = ";
@@ -120,160 +121,128 @@ _Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_31_8_if
         %tmp.41 = invoke %tmp.39 %tmp.40();
         %tmp.42 = add %tmp.37 %tmp.41;
         invoke %tmp.28 %tmp.29(%tmp.42);
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" 40 8 ]
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_40_8_if_stmt:
+[ "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc" 39 8 ]
+_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_39_8_if_stmt:
         %tmp.44 = getv ? :_inProgress;
         %tmp.45 = false;
         %tmp.46 = eq %tmp.44 %tmp.45;
-        bf %tmp.46 @_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_40_8_if_false;
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_40_8_if_true:
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_40_34_start:
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" 41 12 ]
+        bf %tmp.46 @_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_39_8_if_false;
+_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_39_8_if_true:
+_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_39_34_start:
+[ "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc" 40 12 ]
         %tmp.47 = true;
         putv self :_inProgress %tmp.47;
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_40_34_stop:
-        goto @_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_40_8_if_end;
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_40_8_if_false:
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_43_15_start:
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" 44 12 ]
+_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_39_34_stop:
+        goto @_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_39_8_if_end;
+_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_39_8_if_false:
+_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_42_15_start:
+[ "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc" 43 12 ]
         %tmp.49 = getv ? :_timer;
         %tmp.50 = getv function %tmp.49 :stop;
         invoke %tmp.49 %tmp.50();
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_43_15_stop:
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_40_8_if_end:
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" 47 8 ]
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_47_8_if_stmt:
+_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_42_15_stop:
+_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_39_8_if_end:
+[ "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc" 46 8 ]
+_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_46_8_if_stmt:
         %tmp.52 = getv ? :_currentState;
         %tmp.53 = 4;
         %tmp.54 = lt %tmp.52 %tmp.53;
-        bf %tmp.54 @_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_47_8_if_end;
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_47_8_if_true:
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_47_30_start:
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" 48 16 ]
+        bf %tmp.54 @_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_46_8_if_end;
+_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_46_8_if_true:
+_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_46_30_start:
+[ "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc" 47 16 ]
         %tmp.57 = getv ? :_currentState;
         %tmp.58 = add %tmp.57 1;
         putv self :_currentState dup %tmp.58;
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" 49 16 ]
-        %tmp.59 = getm $.Toybox.System;
-        %tmp.60 = getv function %tmp.59 :println;
-        %tmp.61 = "onSelect: increased _currentState=";
-        %tmp.63 = getv ? :_currentState;
-        %tmp.64 = getv function %tmp.63 :toString;
-        %tmp.65 = invoke %tmp.63 %tmp.64();
-        %tmp.66 = add %tmp.61 %tmp.65;
-        invoke %tmp.59 %tmp.60(%tmp.66);
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_47_30_stop:
-        goto @_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_47_8_if_end;
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_47_8_if_end:
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" 51 8 ]
-        %tmp.68 = getv ? :_currentState;
-        push %tmp.68;
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_51_8_switchStmtBegin:
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" 52 12 ]
-        %tmp.69 = dup %tmp.68;
-        %tmp.71 = getv ? :StateType;
-        %tmp.72 = getv %tmp.71 :Ready;
-        %tmp.73 = getv function %tmp.69 :equals;
-        %tmp.74 = invoke %tmp.69 %tmp.73 (%tmp.72);
-        bt %tmp.74 @_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_52_12_switchCase;
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" 54 12 ]
-        %tmp.75 = dup %tmp.68;
-        %tmp.77 = getv ? :StateType;
-        %tmp.78 = getv %tmp.77 :Pouring;
-        %tmp.79 = getv function %tmp.75 :equals;
-        %tmp.80 = invoke %tmp.75 %tmp.79 (%tmp.78);
-        bt %tmp.80 @_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_54_12_switchCase;
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" 59 12 ]
-        %tmp.81 = dup %tmp.68;
-        %tmp.83 = getv ? :StateType;
-        %tmp.84 = getv %tmp.83 :Extraction;
-        %tmp.85 = getv function %tmp.81 :equals;
-        %tmp.86 = invoke %tmp.81 %tmp.85 (%tmp.84);
-        bt %tmp.86 @_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_59_12_switchCase;
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" 64 12 ]
-        %tmp.87 = dup %tmp.68;
-        %tmp.89 = getv ? :StateType;
-        %tmp.90 = getv %tmp.89 :Done;
-        %tmp.91 = getv function %tmp.87 :equals;
-        %tmp.92 = invoke %tmp.87 %tmp.91 (%tmp.90);
-        bt %tmp.92 @_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_64_12_switchCase;
-        goto @_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_51_8_defaultCodeBegin;
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_52_12_switchCase:
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" 53 16 ]
-        goto @_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_51_8_switchStmtEnd;
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_54_12_switchCase:
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" 55 16 ]
-        %tmp.94 = getv ? :DataManager;
-        %tmp.95 = getv function %tmp.94 :getPourMinDuration;
-        %tmp.96 = invoke %tmp.94 %tmp.95();
-        putv self :_stateMinDuration %tmp.96;
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" 56 16 ]
-        %tmp.98 = getv ? :DataManager;
-        %tmp.99 = getv function %tmp.98 :getPourMaxDuration;
-        %tmp.100 = invoke %tmp.98 %tmp.99();
-        putv self :_stateMaxDuration %tmp.100;
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" 57 16 ]
-        %tmp.102 = getv ? :_currentDuration;
-        putv self :_finalPourDurations %tmp.102;
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" 58 16 ]
-        goto @_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_51_8_switchStmtEnd;
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_59_12_switchCase:
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" 60 16 ]
-        %tmp.104 = getv ? :DataManager;
-        %tmp.105 = getv function %tmp.104 :getBrewMinDuration;
-        %tmp.106 = invoke %tmp.104 %tmp.105();
-        putv self :_stateMinDuration %tmp.106;
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" 61 16 ]
-        %tmp.108 = getv ? :DataManager;
-        %tmp.109 = getv function %tmp.108 :getBrewMaxDuration;
-        %tmp.110 = invoke %tmp.108 %tmp.109();
-        putv self :_stateMaxDuration %tmp.110;
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" 62 16 ]
-        %tmp.112 = getv ? :_currentDuration;
-        putv self :_finalBrewDurations %tmp.112;
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" 63 16 ]
-        goto @_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_51_8_switchStmtEnd;
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_64_12_switchCase:
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" 65 16 ]
-        goto @_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_51_8_switchStmtEnd;
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_51_8_defaultCodeBegin:
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_51_8_switchStmtEnd:
-        pop;
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" 67 8 ]
-        %tmp.113 = self;
-        %tmp.114 = getv function %tmp.113 :startCountdown;
-        invoke %tmp.113 %tmp.114();
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" 69 8 ]
-        %tmp.116 = getv ? :_view;
-        %tmp.117 = getv function %tmp.116 :setStateTypeValue;
-        %tmp.119 = getv ? :_currentState;
-        invoke %tmp.116 %tmp.117(%tmp.119);
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" 71 8 ]
-        %tmp.121 = getv ? :_view;
-        %tmp.122 = getv function %tmp.121 :setTimerValue;
-        %tmp.123 = 0;
-        %tmp.125 = getv ? :Graphics;
-        %tmp.126 = getv %tmp.125 :COLOR_WHITE;
-        invoke %tmp.121 %tmp.122(%tmp.123, %tmp.126);
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_26_35_stop:
+_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_46_30_stop:
+        goto @_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_46_8_if_end;
+_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_46_8_if_end:
+[ "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc" 68 8 ]
+_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_68_8_if_stmt:
+        %tmp.60 = getv ? :_currentState;
+        %tmp.62 = getv ? :StateType;
+        %tmp.63 = getv %tmp.62 :Pouring;
+        %tmp.64 = eq %tmp.60 %tmp.63;
+        bf %tmp.64 @_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_68_8_if_false;
+_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_68_8_if_true:
+_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_68_48_start:
+[ "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc" 69 12 ]
+        %tmp.66 = getv ? :DataManager;
+        %tmp.67 = getv function %tmp.66 :getPourMinDuration;
+        %tmp.68 = invoke %tmp.66 %tmp.67();
+        putv self :_stateMinDuration %tmp.68;
+[ "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc" 70 12 ]
+        %tmp.70 = getv ? :DataManager;
+        %tmp.71 = getv function %tmp.70 :getPourMaxDuration;
+        %tmp.72 = invoke %tmp.70 %tmp.71();
+        putv self :_stateMaxDuration %tmp.72;
+[ "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc" 71 12 ]
+        %tmp.74 = getv ? :_currentDuration;
+        putv self :_finalPourDurations %tmp.74;
+_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_68_48_stop:
+        goto @_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_68_8_if_end;
+_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_68_8_if_false:
+[ "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc" 73 15 ]
+_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_73_15_if_stmt:
+        %tmp.76 = getv ? :_currentState;
+        %tmp.78 = getv ? :StateType;
+        %tmp.79 = getv %tmp.78 :Extraction;
+        %tmp.80 = eq %tmp.76 %tmp.79;
+        bf %tmp.80 @_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_73_15_if_end;
+_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_73_15_if_true:
+_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_73_58_start:
+[ "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc" 74 12 ]
+        %tmp.82 = getv ? :DataManager;
+        %tmp.83 = getv function %tmp.82 :getBrewMinDuration;
+        %tmp.84 = invoke %tmp.82 %tmp.83();
+        putv self :_stateMinDuration %tmp.84;
+[ "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc" 75 12 ]
+        %tmp.86 = getv ? :DataManager;
+        %tmp.87 = getv function %tmp.86 :getBrewMaxDuration;
+        %tmp.88 = invoke %tmp.86 %tmp.87();
+        putv self :_stateMaxDuration %tmp.88;
+[ "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc" 76 12 ]
+        %tmp.90 = getv ? :_currentDuration;
+        putv self :_finalBrewDurations %tmp.90;
+_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_73_58_stop:
+        goto @_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_73_15_if_end;
+_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_73_15_if_end:
+_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_68_8_if_end:
+[ "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc" 80 8 ]
+        %tmp.91 = self;
+        %tmp.92 = getv function %tmp.91 :startCountdown;
+        invoke %tmp.91 %tmp.92();
+[ "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc" 82 8 ]
+        %tmp.94 = getv ? :_view;
+        %tmp.95 = getv function %tmp.94 :setStateTypeValue;
+        %tmp.97 = getv ? :_currentState;
+        invoke %tmp.94 %tmp.95(%tmp.97);
+[ "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc" 84 8 ]
+        %tmp.99 = getv ? :_view;
+        %tmp.100 = getv function %tmp.99 :setTimerValue;
+        %tmp.101 = 0;
+        %tmp.103 = getv ? :Graphics;
+        %tmp.104 = getv %tmp.103 :COLOR_WHITE;
+        invoke %tmp.99 %tmp.100(%tmp.101, %tmp.104);
+_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_26_35_stop:
     }
-    [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc"; @line = 76; ]
+    [ @file = "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc"; @line = 89; ]
     function startCountdown() {
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_76_30_start:
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" 77 9 ]
+_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_89_30_start:
+[ "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc" 90 9 ]
         %tmp.2 = getv ? :_view;
         %tmp.3 = getv function %tmp.2 :setStateTypeValue;
         %tmp.5 = getv ? :_currentState;
         invoke %tmp.2 %tmp.3(%tmp.5);
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" 78 9 ]
+[ "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc" 91 9 ]
         %tmp.6 = 0;
         putv self :_currentDuration %tmp.6;
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" 80 9 ]
+[ "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc" 93 9 ]
         %tmp.9 = getm $.Toybox.Timer;
         %tmp.10 = getv function ? %tmp.9 :Timer;
         %tmp.7 = newc %tmp.10 ();
         putv self :_timer %tmp.7;
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" 81 9 ]
+[ "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc" 94 9 ]
         %tmp.12 = getv ? :_timer;
         %tmp.13 = getv function %tmp.12 :start;
         %tmp.14 = self;
@@ -283,29 +252,29 @@ _Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_76_30_s
         %tmp.19 = 1000;
         %tmp.20 = true;
         invoke %tmp.12 %tmp.13(%tmp.18, %tmp.19, %tmp.20);
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" 83 9 ]
+[ "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc" 96 9 ]
         %tmp.22 = getv ? :_view;
         %tmp.23 = getv function %tmp.22 :setTotalTimer;
         %tmp.25 = getv ? :_totalDuration;
         invoke %tmp.22 %tmp.23(%tmp.25);
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_76_30_stop:
+_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_89_30_stop:
     }
-    [ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc"; @line = 86; ]
+    [ @file = "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc"; @line = 99; ]
     function updateCountdownValue() {
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_86_36_start:
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" 87 8 ]
-        [ "_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_86_36_start" "_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_86_36_stop" ]
+_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_99_36_start:
+[ "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc" 100 8 ]
+        [ "_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_99_36_start" "_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_99_36_stop" ]
         %color.1 = local;
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" 89 8 ]
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_89_8_if_stmt:
+[ "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc" 102 8 ]
+_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_102_8_if_stmt:
         %tmp.2 = getv ? :_currentState;
         %tmp.4 = getv ? :StateType;
         %tmp.5 = getv %tmp.4 :Done;
         %tmp.6 = eq %tmp.2 %tmp.5;
-        bf %tmp.6 @_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_89_8_if_end;
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_89_8_if_true:
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_89_46_start:
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" 90 12 ]
+        bf %tmp.6 @_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_102_8_if_end;
+_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_102_8_if_true:
+_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_102_46_start:
+[ "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc" 103 12 ]
         %tmp.7 = getm $.Toybox.System;
         %tmp.8 = getv function %tmp.7 :println;
         %tmp.9 = "_finalBrewDurations:";
@@ -314,11 +283,11 @@ _Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_89_46_s
         %tmp.13 = invoke %tmp.11 %tmp.12();
         %tmp.14 = add %tmp.9 %tmp.13;
         invoke %tmp.7 %tmp.8(%tmp.14);
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" 91 12 ]
+[ "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc" 104 12 ]
         %tmp.16 = getv ? :_timer;
         %tmp.17 = getv function %tmp.16 :stop;
         invoke %tmp.16 %tmp.17();
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" 93 12 ]
+[ "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc" 106 12 ]
         %tmp.18 = getm $.Toybox.System;
         %tmp.19 = getv function %tmp.18 :println;
         %tmp.20 = "_finalPourDurations:";
@@ -327,59 +296,59 @@ _Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_89_46_s
         %tmp.24 = invoke %tmp.22 %tmp.23();
         %tmp.25 = add %tmp.20 %tmp.24;
         invoke %tmp.18 %tmp.19(%tmp.25);
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" 95 12 ]
+[ "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc" 108 12 ]
         %tmp.27 = getv ? :_view;
         %tmp.28 = getv function %tmp.27 :showResults;
         %tmp.30 = getv ? :_finalPourDurations;
         %tmp.32 = getv ? :_finalBrewDurations;
         invoke %tmp.27 %tmp.28(%tmp.30, %tmp.32);
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" 97 12 ]
+[ "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc" 110 12 ]
         ret ?;
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_89_46_stop:
-        goto @_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_89_8_if_end;
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_89_8_if_end:
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" 100 8 ]
+_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_102_46_stop:
+        goto @_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_102_8_if_end;
+_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_102_8_if_end:
+[ "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc" 113 8 ]
         %tmp.35 = getv ? :_currentDuration;
         %tmp.36 = add %tmp.35 1;
         putv self :_currentDuration dup %tmp.36;
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" 101 8 ]
+[ "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc" 114 8 ]
         %tmp.39 = getv ? :_totalDuration;
         %tmp.40 = add %tmp.39 1;
         putv self :_totalDuration dup %tmp.40;
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" 103 8 ]
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_103_8_if_stmt:
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_103_12_begin:
+[ "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc" 116 8 ]
+_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_116_8_if_stmt:
+_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_116_12_begin:
         %tmp.42 = getv ? :_currentDuration;
         %tmp.44 = getv ? :_stateMinDuration;
         %tmp.45 = lt %tmp.42 %tmp.44;
         %tmp.46 = dup %tmp.45;
-        bt %tmp.46 @_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_103_52_end;
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_103_52_false:
+        bt %tmp.46 @_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_116_52_end;
+_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_116_52_false:
         %tmp.48 = getv ? :_currentDuration;
         %tmp.50 = getv ? :_stateMaxDuration;
         %tmp.51 = gt %tmp.48 %tmp.50;
         %tmp.52 = or %tmp.45 %tmp.51;
         push %tmp.52;
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_103_52_end:
-        %tmp.53 = phi [%tmp.46 @_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_103_12_begin] [%tmp.52 @_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_103_52_false] [%tmp.53 @_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_103_52_end];
-        bf %tmp.53 @_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_103_8_if_false;
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_103_8_if_true:
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_103_90_start:
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" 104 12 ]
+_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_116_52_end:
+        %tmp.53 = phi [%tmp.46 @_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_116_12_begin] [%tmp.52 @_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_116_52_false] [%tmp.53 @_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_116_52_end];
+        bf %tmp.53 @_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_116_8_if_false;
+_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_116_8_if_true:
+_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_116_90_start:
+[ "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc" 117 12 ]
         %tmp.55 = getv ? :Graphics;
         %tmp.56 = getv %tmp.55 :COLOR_PINK;
         lputv %color.1 %tmp.56;
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_103_90_stop:
-        goto @_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_103_8_if_end;
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_103_8_if_false:
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_105_15_start:
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" 106 12 ]
+_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_116_90_stop:
+        goto @_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_116_8_if_end;
+_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_116_8_if_false:
+_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_118_15_start:
+[ "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc" 119 12 ]
         %tmp.58 = getv ? :Graphics;
         %tmp.59 = getv %tmp.58 :COLOR_GREEN;
         lputv %color.1 %tmp.59;
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_105_15_stop:
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_103_8_if_end:
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" 108 8 ]
+_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_118_15_stop:
+_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_116_8_if_end:
+[ "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc" 121 8 ]
         %tmp.60 = getm $.Toybox.System;
         %tmp.61 = getv function %tmp.60 :println;
         %tmp.62 = "updateCountdownValue: _currentState = ";
@@ -394,7 +363,7 @@ _Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_103_8_i
         %tmp.73 = invoke %tmp.71 %tmp.72();
         %tmp.74 = add %tmp.69 %tmp.73;
         invoke %tmp.60 %tmp.61(%tmp.74);
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" 109 8 ]
+[ "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc" 122 8 ]
         %tmp.75 = getm $.Toybox.System;
         %tmp.76 = getv function %tmp.75 :println;
         %tmp.77 = "updateCountdownValue: _stateMinDuration = ";
@@ -409,20 +378,20 @@ _Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_103_8_i
         %tmp.88 = invoke %tmp.86 %tmp.87();
         %tmp.89 = add %tmp.84 %tmp.88;
         invoke %tmp.75 %tmp.76(%tmp.89);
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" 112 8 ]
+[ "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc" 125 8 ]
         %tmp.91 = getv ? :_view;
         %tmp.92 = getv function %tmp.91 :setTimerValue;
         %tmp.94 = getv ? :_currentDuration;
         %tmp.96 = lgetv %color.1;
         invoke %tmp.91 %tmp.92(%tmp.94, %tmp.96);
-[ "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc" 113 8 ]
+[ "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc" 126 8 ]
         %tmp.98 = getv ? :_view;
         %tmp.99 = getv function %tmp.98 :setTotalTimer;
         %tmp.101 = getv ? :_totalDuration;
         invoke %tmp.98 %tmp.99(%tmp.101);
-_Users_martin_bartak_garmin_EasyBrew_EasyBrew_source_EasyBrewDelegate_mc_86_36_stop:
+_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewDelegate_mc_99_36_stop:
     }
 }
-[ @file = "/Users/martin.bartak/garmin/EasyBrew/EasyBrew/source/EasyBrewDelegate.mc"; @line = 1; ]
+[ @file = "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewDelegate.mc"; @line = 1; ]
 <init> {
 }
