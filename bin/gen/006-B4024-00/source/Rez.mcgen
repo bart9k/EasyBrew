@@ -16,16 +16,6 @@ module Rez {
     } // JsonData
 
     module Layouts {
-        function ResultsLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-            var rez_cmp_local_text_type_title = new WatchUi.Text({:identifier=>"type_title", :locX=>(260 * 0.5), :locY=>(260 * (5 / 100.0)), :text=>"Results", :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_MEDIUM});
-
-            var rez_cmp_local_text_resultsPour = new WatchUi.Text({:identifier=>"resultsPour", :locX=>(260 * 0.5), :locY=>(260 * (35 / 100.0)), :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_MEDIUM});
-
-            var rez_cmp_local_text_resultsBrew = new WatchUi.Text({:identifier=>"resultsBrew", :locX=>(260 * 0.5), :locY=>(260 * (50 / 100.0)), :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_MEDIUM});
-
-            return [rez_cmp_local_text_type_title, rez_cmp_local_text_resultsPour, rez_cmp_local_text_resultsBrew] as Array<WatchUi.Drawable>;
-        }
-
         function MainLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
             var rez_cmp_local_text_type_title = new WatchUi.Text({:identifier=>"type_title", :locX=>(260 * 0.5), :locY=>(260 * (5 / 100.0)), :text=>"Ready", :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_MEDIUM});
 
@@ -35,11 +25,11 @@ module Rez {
 
             var rez_cmp_local_text_total_timer = new WatchUi.Text({:identifier=>"total_timer", :locX=>(260 * 0.5), :locY=>(260 * (75 / 100.0)), :text=>"(0:00)", :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_MEDIUM});
 
-            var rez_cmp_local_text_resultsPourDD = new WatchUi.Text({:identifier=>"resultsPourDD", :locX=>(260 * 0.5), :locY=>(260 * (35 / 100.0)), :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_MEDIUM});
+            var rez_cmp_local_text_resultsPour = new WatchUi.Text({:identifier=>"resultsPour", :locX=>(260 * 0.5), :locY=>(260 * (35 / 100.0)), :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_MEDIUM});
 
-            var rez_cmp_local_text_resultsBrewDD = new WatchUi.Text({:identifier=>"resultsBrewDD", :locX=>(260 * 0.5), :locY=>(260 * (50 / 100.0)), :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_MEDIUM});
+            var rez_cmp_local_text_resultsBrew = new WatchUi.Text({:identifier=>"resultsBrew", :locX=>(260 * 0.5), :locY=>(260 * (50 / 100.0)), :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_MEDIUM});
 
-            return [rez_cmp_local_text_type_title, rez_cmp_local_text_type_duration, rez_cmp_local_text_current_timer, rez_cmp_local_text_total_timer, rez_cmp_local_text_resultsPourDD, rez_cmp_local_text_resultsBrewDD] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_text_type_title, rez_cmp_local_text_type_duration, rez_cmp_local_text_current_timer, rez_cmp_local_text_total_timer, rez_cmp_local_text_resultsPour, rez_cmp_local_text_resultsBrew] as Array<WatchUi.Drawable>;
         }
     } // Layouts
 

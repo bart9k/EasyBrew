@@ -46,11 +46,6 @@ class EasyBrewView extends WatchUi.View {
     function onHide() as Void {
     }
 
-
-
-// vybrace? Attention.vibrate([new Attention.VibeProfile(50, 1000)]);
-
-
     // This will draw the state label to the screen based on status
     function setStateTypeValue(stateType as StateType) as Void {
         var label = "";
@@ -66,13 +61,11 @@ class EasyBrewView extends WatchUi.View {
                 label = "Pouring";
                 durationLabel = "(" + DataManager.getPourMinDuration().toString() + "-" + DataManager.getPourMaxDuration().toString() + "s)";
                 color = Graphics.COLOR_YELLOW;
-                Attention.vibrate([new Attention.VibeProfile(50, 1000)]);
                 break;
             case StateType.Extraction:
                 label = "Extraction";
                 durationLabel = "(" + DataManager.getBrewMinDuration().toString() + "-" + DataManager.getBrewMaxDuration().toString() + "s)";
                 color = Graphics.COLOR_WHITE;
-                Attention.vibrate([new Attention.VibeProfile(50, 1000)]);
                 break;
             case StateType.Done:
                 label = "Done";
@@ -130,18 +123,22 @@ class EasyBrewView extends WatchUi.View {
         // pour data and color :)
         _stateMinDuration = DataManager.getPourMinDuration();
         _stateMaxDuration = DataManager.getPourMaxDuration();
+
+        // setting color
         if (_stateMinDuration <= pourValue && pourValue <= _stateMaxDuration) {
             _resultsPourElement.setColor(Graphics.COLOR_GREEN);
         } else {
             _resultsPourElement.setColor(Graphics.COLOR_PINK);
         }
         // console debug
-        System.println("pour: " + _stateMinDuration.toString() + " < " + + pourValue.toString() + " < " + _stateMaxDuration.toString());
+        //System.println("pour: " + _stateMinDuration.toString() + " < " + + pourValue.toString() + " < " + _stateMaxDuration.toString());
         _resultsPourElement.setText("Brew: " + pourValue.toString() + "s");
 
         // brew data and color :)
         _stateMinDuration = DataManager.getBrewMinDuration();
         _stateMaxDuration = DataManager.getBrewMaxDuration();
+
+        // setting color
         if (_stateMinDuration > brewValue || brewValue > _stateMaxDuration) {
             _resultsBrewElement.setColor(Graphics.COLOR_PINK);
         } else {

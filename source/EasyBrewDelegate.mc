@@ -34,8 +34,8 @@ class EasyBrewDelegate extends WatchUi.BehaviorDelegate {
         // bug
         // bug
 
-        System.println("onSelect: _currentState = " + _currentState.toString() + " ,_currentDuration = " + _currentDuration.toString());
-        System.println("onSelect: _stateMinDuration = " + _stateMinDuration.toString() + " ,_stateMaxDuration = " + _stateMaxDuration.toString());
+        //System.println("onSelect: _currentState = " + _currentState.toString() + " ,_currentDuration = " + _currentDuration.toString());
+        //System.println("onSelect: _stateMinDuration = " + _stateMinDuration.toString() + " ,_stateMaxDuration = " + _stateMaxDuration.toString());
         if (_inProgress == false) {
             _inProgress = true; 
             //System.println("onSelect: first round");     
@@ -100,10 +100,10 @@ class EasyBrewDelegate extends WatchUi.BehaviorDelegate {
         var color;
         //results = _finalPourDurations;
         if ( _currentState == StateType.Done) {
-            System.println("_finalBrewDurations:" + _finalBrewDurations.toString());
+            //System.println("_finalBrewDurations:" + _finalBrewDurations.toString());
             _timer.stop();
             // and here I need to update the view with results and add posibility to start over
-            System.println("_finalPourDurations:" + _finalPourDurations.toString());
+            //System.println("_finalPourDurations:" + _finalPourDurations.toString());
             //_view.showResults(_finalPourDurations.toString(),_finalBrewDurations.toString());
             _view.showResults(_finalPourDurations,_finalBrewDurations);
 
@@ -118,9 +118,14 @@ class EasyBrewDelegate extends WatchUi.BehaviorDelegate {
         } else {
             color = Graphics.COLOR_GREEN;
         }
-        System.println("updateCountdownValue: _currentState = " + _currentState.toString() + " ,_currentDuration = " + _currentDuration.toString());
-        System.println("updateCountdownValue: _stateMinDuration = " + _stateMinDuration.toString() + " ,_stateMaxDuration = " + _stateMaxDuration.toString());
+        //System.println("updateCountdownValue: _currentState = " + _currentState.toString() + " ,_currentDuration = " + _currentDuration.toString());
+        //System.println("updateCountdownValue: _stateMinDuration = " + _stateMinDuration.toString() + " ,_stateMaxDuration = " + _stateMaxDuration.toString());
 
+
+        // adding vibration feature
+        if (_currentDuration == _stateMinDuration || _currentDuration == _stateMaxDuration) {
+            Attention.vibrate([new Attention.VibeProfile(50, 500)]);
+        }
 
         _view.setTimerValue(_currentDuration, color);
         _view.setTotalTimer(_totalDuration);
