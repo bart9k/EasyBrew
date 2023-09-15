@@ -2,14 +2,13 @@
 
 ## version change log
 
-### 0.9.1 (2023-XX-XX)
-* Bug fixes
-  * brew time lower value color
-
-### 0.9.9 (2023-09-Y04)
-## Added feature
+### 0.9.9 (2023-09-15)
+#### Added feature
 * vibration when entering and leaving the interval
 
+### 0.9.1 (2023-07-23)
+* Bug fixes
+  * brew time lower value color
 
 ## Planned 
 ### features
