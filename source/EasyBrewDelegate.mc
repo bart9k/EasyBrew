@@ -30,7 +30,7 @@ class EasyBrewDelegate extends WatchUi.BehaviorDelegate {
         } else if (_currentState == 3) {
             _finalBrewDurations = _currentDuration;
         }
-        //  bug
+        // bug
         // bug
         // bug
 
@@ -43,38 +43,21 @@ class EasyBrewDelegate extends WatchUi.BehaviorDelegate {
             _timer.stop();
             //System.println("onSelect: " + _currentState.toString() + " round");
         }
-        if (_currentState <4) {
+        if (_currentState < StateType.Done) {
                 _currentState++;
                 //System.println("onSelect: increased _currentState=" +_currentState.toString());
+        } else {
+            _view.showResults(_finalPourDurations,_finalBrewDurations);
+            return;
         }
-      /*  switch(_currentState) {
-            case StateType.Ready:
-                break;
-            case StateType.Pouring:
-                _stateMinDuration = DataManager.getPourMinDuration();
-                _stateMaxDuration = DataManager.getPourMaxDuration();
-                _finalPourDurations = _currentDuration;
-                break;
-            case StateType.Extraction:
-                _stateMinDuration = DataManager.getBrewMinDuration();
-                _stateMaxDuration = DataManager.getBrewMaxDuration();
-                _finalBrewDurations = _currentDuration;
-                break;
-            case StateType.Done:
-                break;
-        } 
-        // Swith replaced by if and else if
-        */ 
         if (_currentState == StateType.Pouring) {
             _stateMinDuration = DataManager.getPourMinDuration();
             _stateMaxDuration = DataManager.getPourMaxDuration();
             _finalPourDurations = _currentDuration;
-
         } else if (_currentState == StateType.Extraction) {
             _stateMinDuration = DataManager.getBrewMinDuration();
             _stateMaxDuration = DataManager.getBrewMaxDuration();
             _finalBrewDurations = _currentDuration;
-
         }
 
         startCountdown();

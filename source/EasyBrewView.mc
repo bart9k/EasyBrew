@@ -87,7 +87,7 @@ class EasyBrewView extends WatchUi.View {
         var formattedValue;
 
         if (value == 0) {
-            formattedValue = "-:--";
+            formattedValue = "0:00";
         } else  {
             formattedValue = minutes.toString() + ":" + secondsFormatted;
         }

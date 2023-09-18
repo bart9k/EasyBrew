@@ -319,7 +319,7 @@ _Users_martin_bartak_garmin_EasyBrew_source_EasyBrewView_mc_89_8_if_stmt:
 _Users_martin_bartak_garmin_EasyBrew_source_EasyBrewView_mc_89_8_if_true:
 _Users_martin_bartak_garmin_EasyBrew_source_EasyBrewView_mc_89_24_start:
 [ "/Users/martin.bartak/garmin/EasyBrew/source/EasyBrewView.mc" 90 12 ]
-        %tmp.26 = "-:--";
+        %tmp.26 = "0:00";
         lputv %formattedValue.4 %tmp.26;
 _Users_martin_bartak_garmin_EasyBrew_source_EasyBrewView_mc_89_24_stop:
         goto @_Users_martin_bartak_garmin_EasyBrew_source_EasyBrewView_mc_89_8_if_end;

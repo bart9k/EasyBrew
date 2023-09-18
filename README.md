@@ -2,7 +2,15 @@
 
 ## version change log
 
-### 0.9.9 (2023-09-15)
+### 1.0.0 (2023-09)
+#### Added feautres
+* New icon in better resolution
+* Redesing
+  * removed Done state and goes now directly to results
+#### Fixed bugs
+
+
+### 0.9.5 (2023-09-15)
 #### Added feature
 * vibration when entering and leaving the interval
 
